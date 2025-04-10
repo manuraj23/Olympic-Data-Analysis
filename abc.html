@@ -1,0 +1,4532 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esri_wms="http://www.esri.com/wms" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.esri.com/wms http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?version=1.3.0%26service=WMS%26request=GetSchemaExtension">
+<Service>
+<Name>
+<![CDATA[ WMS ]]>
+</Name>
+<Title>
+<![CDATA[ State_Basemap_State_Basemap_Cached ]]>
+</Title>
+<Abstract>WMS</Abstract>
+<KeywordList>
+<Keyword>
+<![CDATA[ ]]>
+</Keyword>
+</KeywordList>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?"/>
+<ContactInformation>
+<ContactPersonPrimary>
+<ContactPerson>
+<![CDATA[ ]]>
+</ContactPerson>
+<ContactOrganization>
+<![CDATA[ ]]>
+</ContactOrganization>
+</ContactPersonPrimary>
+<ContactPosition>
+<![CDATA[ ]]>
+</ContactPosition>
+<ContactAddress>
+<AddressType>
+<![CDATA[ ]]>
+</AddressType>
+<Address>
+<![CDATA[ ]]>
+</Address>
+<City>
+<![CDATA[ ]]>
+</City>
+<StateOrProvince>
+<![CDATA[ ]]>
+</StateOrProvince>
+<PostCode>
+<![CDATA[ ]]>
+</PostCode>
+<Country>
+<![CDATA[ ]]>
+</Country>
+</ContactAddress>
+<ContactVoiceTelephone>
+<![CDATA[ ]]>
+</ContactVoiceTelephone>
+<ContactFacsimileTelephone>
+<![CDATA[ ]]>
+</ContactFacsimileTelephone>
+<ContactElectronicMailAddress>
+<![CDATA[ ]]>
+</ContactElectronicMailAddress>
+</ContactInformation>
+<Fees>
+<![CDATA[ ]]>
+</Fees>
+<AccessConstraints>
+<![CDATA[ ]]>
+</AccessConstraints>
+<MaxWidth>4096</MaxWidth>
+<MaxHeight>4096</MaxHeight>
+</Service>
+<Capability>
+<Request>
+<GetCapabilities>
+<Format>application/vnd.ogc.wms_xml</Format>
+<Format>text/xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetCapabilities>
+<GetMap>
+<Format>image/bmp</Format>
+<Format>image/jpeg</Format>
+<Format>image/tiff</Format>
+<Format>image/png</Format>
+<Format>image/png8</Format>
+<Format>image/png24</Format>
+<Format>image/png32</Format>
+<Format>image/gif</Format>
+<Format>image/svg+xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetMap>
+<GetFeatureInfo>
+<Format>application/vnd.esri.wms_raw_xml</Format>
+<Format>application/vnd.esri.wms_featureinfo_xml</Format>
+<Format>application/vnd.ogc.wms_xml</Format>
+<Format>application/geojson</Format>
+<Format>text/xml</Format>
+<Format>text/html</Format>
+<Format>text/plain</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetFeatureInfo>
+<esri_wms:GetStyles>
+<Format>application/vnd.ogc.sld+xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</esri_wms:GetStyles>
+</Request>
+<Exception>
+<Format>application/vnd.ogc.se_xml</Format>
+<Format>application/vnd.ogc.se_inimage</Format>
+<Format>application/vnd.ogc.se_blank</Format>
+<Format>text/xml</Format>
+<Format>XML</Format>
+</Exception>
+<Layer>
+<Title>
+<![CDATA[ Layers ]]>
+</Title>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>-179.999989</westBoundLongitude>
+<eastBoundLongitude>179.999989</eastBoundLongitude>
+<southBoundLatitude>-89.000000</southBoundLatitude>
+<northBoundLatitude>89.000000</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-179.999989" miny="-89.000000" maxx="179.999989" maxy="89.000000"/>
+<BoundingBox CRS="EPSG:4326" minx="-89.000000" miny="-179.999989" maxx="89.000000" maxy="179.999989"/>
+<BoundingBox CRS="EPSG:3857" minx="-20037507.067162" miny="-30240971.958386" maxx="20037507.067162" maxy="30240971.958386"/>
+<BoundingBox CRS="EPSG:102100" minx="-20037507.067162" miny="-30240971.958386" maxx="20037507.067162" maxy="30240971.958386"/>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Layers ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>-179.999996</westBoundLongitude>
+<eastBoundLongitude>179.999996</eastBoundLongitude>
+<southBoundLatitude>-89.000000</southBoundLatitude>
+<northBoundLatitude>89.000000</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-179.999996" miny="-89.000000" maxx="179.999996" maxy="89.000000"/>
+<BoundingBox CRS="EPSG:4326" minx="-89.000000" miny="-179.999996" maxx="89.000000" maxy="179.999996"/>
+<BoundingBox CRS="EPSG:3857" minx="-20037507.842788" miny="-30240971.458386" maxx="20037507.842788" maxy="30240971.458386"/>
+<BoundingBox CRS="EPSG:102100" minx="-20037507.842788" miny="-30240971.458386" maxx="20037507.842788" maxy="30240971.458386"/>
+<Layer queryable="1">
+<Name>1</Name>
+<Title>
+<![CDATA[ Ocean ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>-179.999975</westBoundLongitude>
+<eastBoundLongitude>179.999960</eastBoundLongitude>
+<southBoundLatitude>-85.470292</southBoundLatitude>
+<northBoundLatitude>89.000000</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-179.999975" miny="-85.470292" maxx="179.999960" maxy="89.000000"/>
+<BoundingBox CRS="EPSG:4326" minx="-85.470292" miny="-179.999975" maxx="89.000000" maxy="179.999960"/>
+<BoundingBox CRS="EPSG:3857" minx="-20037505.554236" miny="-20602629.598736" maxx="20037503.873757" maxy="30240971.958386"/>
+<BoundingBox CRS="EPSG:102100" minx="-20037505.554236" miny="-20602629.598736" maxx="20037503.873757" maxy="30240971.958386"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Ocean ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=1" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>2</Name>
+<Title>
+<![CDATA[ Country ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>67.128263</westBoundLongitude>
+<eastBoundLongitude>99.124051</eastBoundLongitude>
+<southBoundLatitude>6.722645</southBoundLatitude>
+<northBoundLatitude>37.088919</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="67.128263" miny="6.722645" maxx="99.124051" maxy="37.088919"/>
+<BoundingBox CRS="EPSG:4326" minx="6.722645" miny="67.128263" maxx="37.088919" maxy="99.124051"/>
+<BoundingBox CRS="EPSG:3857" minx="7472684.026632" miny="750084.430281" maxx="11034438.909137" maxy="4451508.207655"/>
+<BoundingBox CRS="EPSG:102100" minx="7472684.026632" miny="750084.430281" maxx="11034438.909137" maxy="4451508.207655"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Country ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=2" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>3</Name>
+<Title>
+<![CDATA[ World ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>-179.999989</westBoundLongitude>
+<eastBoundLongitude>179.999989</eastBoundLongitude>
+<southBoundLatitude>-89.000000</southBoundLatitude>
+<northBoundLatitude>83.623596</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-179.999989" miny="-89.000000" maxx="179.999989" maxy="83.623596"/>
+<BoundingBox CRS="EPSG:4326" minx="-89.000000" miny="-179.999989" maxx="83.623596" maxy="179.999989"/>
+<BoundingBox CRS="EPSG:3857" minx="-20037507.067162" miny="-30240971.958386" maxx="20037507.067162" maxy="18418382.328923"/>
+<BoundingBox CRS="EPSG:102100" minx="-20037507.067162" miny="-30240971.958386" maxx="20037507.067162" maxy="18418382.328923"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ World ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=3" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>3779762.849702</MinScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Poly ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Layer queryable="1">
+<Name>5</Name>
+<Title>
+<![CDATA[ State ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ State ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=5" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>6</Name>
+<Title>
+<![CDATA[ Forest ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.071187</westBoundLongitude>
+<eastBoundLongitude>78.523181</eastBoundLongitude>
+<southBoundLatitude>11.580612</southBoundLatitude>
+<northBoundLatitude>18.006544</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.071187" miny="11.580612" maxx="78.523181" maxy="18.006544"/>
+<BoundingBox CRS="EPSG:4326" minx="11.580612" miny="74.071187" maxx="18.006544" maxy="78.523181"/>
+<BoundingBox CRS="EPSG:3857" minx="8245566.768376" miny="1298015.995693" maxx="8741160.544506" maxy="2038314.538654"/>
+<BoundingBox CRS="EPSG:102100" minx="8245566.768376" miny="1298015.995693" maxx="8741160.544506" maxy="2038314.538654"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Forest ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=6" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>7</Name>
+<Title>
+<![CDATA[ Reservior ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.291494</westBoundLongitude>
+<eastBoundLongitude>78.438197</eastBoundLongitude>
+<southBoundLatitude>11.630900</southBoundLatitude>
+<northBoundLatitude>18.432174</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.291494" miny="11.630900" maxx="78.438197" maxy="18.432174"/>
+<BoundingBox CRS="EPSG:4326" minx="11.630900" miny="74.291494" maxx="18.432174" maxy="78.438197"/>
+<BoundingBox CRS="EPSG:3857" minx="8270091.245000" miny="1303730.907325" maxx="8731700.116989" maxy="2088196.355833"/>
+<BoundingBox CRS="EPSG:102100" minx="8270091.245000" miny="1303730.907325" maxx="8731700.116989" maxy="2088196.355833"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Reservior ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=7" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>8</Name>
+<Title>
+<![CDATA[ Habitation_Boundary ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.076184</westBoundLongitude>
+<eastBoundLongitude>78.676170</eastBoundLongitude>
+<southBoundLatitude>11.613434</southBoundLatitude>
+<northBoundLatitude>18.489137</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.076184" miny="11.613434" maxx="78.676170" maxy="18.489137"/>
+<BoundingBox CRS="EPSG:4326" minx="11.613434" miny="74.076184" maxx="18.489137" maxy="78.676170"/>
+<BoundingBox CRS="EPSG:3857" minx="8246123.085456" miny="1301745.906806" maxx="8758191.224103" maxy="2094881.391628"/>
+<BoundingBox CRS="EPSG:102100" minx="8246123.085456" miny="1301745.906806" maxx="8758191.224103" maxy="2094881.391628"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Habitation_Boundary ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=8" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+<MaxScaleDenominator>377976.190476</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>9</Name>
+<Title>
+<![CDATA[ River ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.101823</westBoundLongitude>
+<eastBoundLongitude>78.185664</eastBoundLongitude>
+<southBoundLatitude>11.585226</southBoundLatitude>
+<northBoundLatitude>18.219929</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.101823" miny="11.585226" maxx="78.185664" maxy="18.219929"/>
+<BoundingBox CRS="EPSG:4326" minx="11.585226" miny="74.101823" maxx="18.219929" maxy="78.185664"/>
+<BoundingBox CRS="EPSG:3857" minx="8248977.192629" miny="1298540.333159" maxx="8703588.342756" maxy="2063307.033788"/>
+<BoundingBox CRS="EPSG:102100" minx="8248977.192629" miny="1298540.333159" maxx="8703588.342756" maxy="2063307.033788"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ River ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=9" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>10</Name>
+<Title>
+<![CDATA[ Tank_Lake ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.085554</westBoundLongitude>
+<eastBoundLongitude>78.672641</eastBoundLongitude>
+<southBoundLatitude>11.622714</southBoundLatitude>
+<northBoundLatitude>18.435719</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.085554" miny="11.622714" maxx="78.672641" maxy="18.435719"/>
+<BoundingBox CRS="EPSG:4326" minx="11.622714" miny="74.085554" maxx="18.435719" maxy="78.672641"/>
+<BoundingBox CRS="EPSG:3857" minx="8247166.199849" miny="1302800.532702" maxx="8757798.361344" maxy="2088612.257216"/>
+<BoundingBox CRS="EPSG:102100" minx="8247166.199849" miny="1302800.532702" maxx="8757798.361344" maxy="2088612.257216"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Tank_Lake ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=10" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+<MaxScaleDenominator>188988.095238</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>11</Name>
+<Title>
+<![CDATA[ Road_State ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.076407</westBoundLongitude>
+<eastBoundLongitude>78.680817</eastBoundLongitude>
+<southBoundLatitude>11.593884</southBoundLatitude>
+<northBoundLatitude>18.490822</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.076407" miny="11.593884" maxx="78.680817" maxy="18.490822"/>
+<BoundingBox CRS="EPSG:4326" minx="11.593884" miny="74.076407" maxx="18.490822" maxy="78.680817"/>
+<BoundingBox CRS="EPSG:3857" minx="8246147.906811" miny="1299524.243402" maxx="8758708.434399" maxy="2095079.148923"/>
+<BoundingBox CRS="EPSG:102100" minx="8246147.906811" miny="1299524.243402" maxx="8758708.434399" maxy="2095079.148923"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_State ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=11" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>47247.023810</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>12</Name>
+<Title>
+<![CDATA[ LanduseLandcover ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068534</westBoundLongitude>
+<eastBoundLongitude>78.680833</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068534" miny="11.578881" maxx="78.680833" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068534" maxx="18.491288" maxy="78.680833"/>
+<BoundingBox CRS="EPSG:3857" minx="8245271.480285" miny="1297819.343113" maxx="8758710.317057" maxy="2095133.846120"/>
+<BoundingBox CRS="EPSG:102100" minx="8245271.480285" miny="1297819.343113" maxx="8758710.317057" maxy="2095133.846120"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ LanduseLandcover ]]>
+</Title>
+<LegendURL width="366" height="2034">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=12" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>47247.023810</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>13</Name>
+<Title>
+<![CDATA[ Village ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Village ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=13" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>23623.511905</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>14</Name>
+<Title>
+<![CDATA[ Taluk Hybrid ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Taluk Hybrid ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=14" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>708706.302083</MinScaleDenominator>
+<MaxScaleDenominator>1889880.952381</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>15</Name>
+<Title>
+<![CDATA[ Taluk Hybrid ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Taluk Hybrid ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=15" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>1889880.952381</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>16</Name>
+<Title>
+<![CDATA[ District Hybrid ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ District Hybrid ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=16" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+<MaxScaleDenominator>188987.150298</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>17</Name>
+<Title>
+<![CDATA[ District Hybrid ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.068262</westBoundLongitude>
+<eastBoundLongitude>78.680838</eastBoundLongitude>
+<southBoundLatitude>11.578881</southBoundLatitude>
+<northBoundLatitude>18.491288</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.068262" miny="11.578881" maxx="78.680838" maxy="18.491288"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578881" miny="74.068262" maxx="18.491288" maxy="78.680838"/>
+<BoundingBox CRS="EPSG:3857" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<BoundingBox CRS="EPSG:102100" minx="8245241.255936" miny="1297819.337299" maxx="8758710.793974" maxy="2095133.846093"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ District Hybrid ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=17" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>1889880.952381</MinScaleDenominator>
+<MaxScaleDenominator>3779761.904762</MaxScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Line ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.627858</westBoundLongitude>
+<eastBoundLongitude>78.680803</eastBoundLongitude>
+<southBoundLatitude>11.448742</southBoundLatitude>
+<northBoundLatitude>18.491192</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.627858" miny="11.448742" maxx="78.680803" maxy="18.491192"/>
+<BoundingBox CRS="EPSG:4326" minx="11.448742" miny="71.627858" maxx="18.491192" maxy="78.680803"/>
+<BoundingBox CRS="EPSG:3857" minx="7973576.646283" miny="1283034.809965" maxx="8758706.933989" maxy="2095122.613202"/>
+<BoundingBox CRS="EPSG:102100" minx="7973576.646283" miny="1283034.809965" maxx="8758706.933989" maxy="2095122.613202"/>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+<Layer queryable="1">
+<Name>19</Name>
+<Title>
+<![CDATA[ Water_Centreline ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.078885</westBoundLongitude>
+<eastBoundLongitude>78.678457</eastBoundLongitude>
+<southBoundLatitude>11.578000</southBoundLatitude>
+<northBoundLatitude>18.486678</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.078885" miny="11.578000" maxx="78.678457" maxy="18.486678"/>
+<BoundingBox CRS="EPSG:4326" minx="11.578000" miny="74.078885" maxx="18.486678" maxy="78.678457"/>
+<BoundingBox CRS="EPSG:3857" minx="8246423.810102" miny="1297719.250561" maxx="8758445.759105" maxy="2094592.831952"/>
+<BoundingBox CRS="EPSG:102100" minx="8246423.810102" miny="1297719.250561" maxx="8758445.759105" maxy="2094592.831952"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Water_Centreline ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=19" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>20</Name>
+<Title>
+<![CDATA[ Road_Sky_Walk ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.668384</westBoundLongitude>
+<eastBoundLongitude>78.156410</eastBoundLongitude>
+<southBoundLatitude>11.454304</southBoundLatitude>
+<northBoundLatitude>17.453018</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.668384" miny="11.454304" maxx="78.156410" maxy="17.453018"/>
+<BoundingBox CRS="EPSG:4326" minx="11.454304" miny="74.668384" maxx="17.453018" maxy="78.156410"/>
+<BoundingBox CRS="EPSG:3857" minx="8312046.504454" miny="1283666.494476" maxx="8700331.793638" maxy="1973623.392544"/>
+<BoundingBox CRS="EPSG:102100" minx="8312046.504454" miny="1283666.494476" maxx="8700331.793638" maxy="1973623.392544"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Sky_Walk ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=20" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>21</Name>
+<Title>
+<![CDATA[ Road_Median_Line ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.388780</westBoundLongitude>
+<eastBoundLongitude>78.604512</eastBoundLongitude>
+<southBoundLatitude>11.958256</southBoundLatitude>
+<northBoundLatitude>18.206348</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.388780" miny="11.958256" maxx="78.604512" maxy="18.206348"/>
+<BoundingBox CRS="EPSG:4326" minx="11.958256" miny="74.388780" maxx="18.206348" maxy="78.604512"/>
+<BoundingBox CRS="EPSG:3857" minx="8280921.081537" miny="1340958.072399" maxx="8750214.248644" maxy="2061715.416454"/>
+<BoundingBox CRS="EPSG:102100" minx="8280921.081537" miny="1340958.072399" maxx="8750214.248644" maxy="2061715.416454"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Median_Line ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=21" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>18898.809524</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>22</Name>
+<Title>
+<![CDATA[ Road_Line ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.076565</westBoundLongitude>
+<eastBoundLongitude>78.678567</eastBoundLongitude>
+<southBoundLatitude>11.602446</southBoundLatitude>
+<northBoundLatitude>18.491129</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.076565" miny="11.602446" maxx="78.678567" maxy="18.491129"/>
+<BoundingBox CRS="EPSG:4326" minx="11.602446" miny="74.076565" maxx="18.491129" maxy="78.678567"/>
+<BoundingBox CRS="EPSG:3857" minx="8246165.544930" miny="1300497.119277" maxx="8758457.985872" maxy="2095115.184368"/>
+<BoundingBox CRS="EPSG:102100" minx="8246165.544930" miny="1300497.119277" maxx="8758457.985872" maxy="2095115.184368"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Line ]]>
+</Title>
+<LegendURL width="78" height="36">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=22" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>23</Name>
+<Title>
+<![CDATA[ Road_Centreline ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.076305</westBoundLongitude>
+<eastBoundLongitude>78.680803</eastBoundLongitude>
+<southBoundLatitude>11.593893</southBoundLatitude>
+<northBoundLatitude>18.491192</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.076305" miny="11.593893" maxx="78.680803" maxy="18.491192"/>
+<BoundingBox CRS="EPSG:4326" minx="11.593893" miny="74.076305" maxx="18.491192" maxy="78.680803"/>
+<BoundingBox CRS="EPSG:3857" minx="8246136.538740" miny="1299525.232180" maxx="8758706.933989" maxy="2095122.610287"/>
+<BoundingBox CRS="EPSG:102100" minx="8246136.538740" miny="1299525.232180" maxx="8758706.933989" maxy="2095122.610287"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Centreline ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=23" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>24</Name>
+<Title>
+<![CDATA[ Rly_Sky_Walk ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.325627</westBoundLongitude>
+<eastBoundLongitude>78.330041</eastBoundLongitude>
+<southBoundLatitude>12.487571</southBoundLatitude>
+<northBoundLatitude>17.957043</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.325627" miny="12.487571" maxx="78.330041" maxy="17.957043"/>
+<BoundingBox CRS="EPSG:4326" minx="12.487571" miny="74.325627" maxx="17.957043" maxy="78.330041"/>
+<BoundingBox CRS="EPSG:3857" minx="8273890.984917" miny="1401248.088426" maxx="8719660.295025" maxy="2032521.118912"/>
+<BoundingBox CRS="EPSG:102100" minx="8273890.984917" miny="1401248.088426" maxx="8719660.295025" maxy="2032521.118912"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Sky_Walk ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=24" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>25</Name>
+<Title>
+<![CDATA[ Compound_Wall ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.092809</westBoundLongitude>
+<eastBoundLongitude>78.663209</eastBoundLongitude>
+<southBoundLatitude>11.628834</southBoundLatitude>
+<northBoundLatitude>18.431241</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.092809" miny="11.628834" maxx="78.663209" maxy="18.431241"/>
+<BoundingBox CRS="EPSG:4326" minx="11.628834" miny="74.092809" maxx="18.431241" maxy="78.663209"/>
+<BoundingBox CRS="EPSG:3857" minx="8247973.823554" miny="1303496.124723" maxx="8756748.315059" maxy="2088086.831602"/>
+<BoundingBox CRS="EPSG:102100" minx="8247973.823554" miny="1303496.124723" maxx="8756748.315059" maxy="2088086.831602"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Compound_Wall ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=25" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>26</Name>
+<Title>
+<![CDATA[ Canal_CentreLine ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.628663</westBoundLongitude>
+<eastBoundLongitude>78.563636</eastBoundLongitude>
+<southBoundLatitude>11.668660</southBoundLatitude>
+<northBoundLatitude>18.449874</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.628663" miny="11.668660" maxx="78.563636" maxy="18.449874"/>
+<BoundingBox CRS="EPSG:4326" minx="11.668660" miny="71.628663" maxx="18.449874" maxy="78.563636"/>
+<BoundingBox CRS="EPSG:3857" minx="7973666.304156" miny="1308022.760425" maxx="8745663.966565" maxy="2090273.335887"/>
+<BoundingBox CRS="EPSG:102100" minx="7973666.304156" miny="1308022.760425" maxx="8745663.966565" maxy="2090273.335887"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Canal_CentreLine ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=26" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Name>27</Name>
+<Title>
+<![CDATA[ Rly_Track ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.096308</westBoundLongitude>
+<eastBoundLongitude>78.350587</eastBoundLongitude>
+<southBoundLatitude>11.920873</southBoundLatitude>
+<northBoundLatitude>18.297845</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.096308" miny="11.920873" maxx="78.350587" maxy="18.297845"/>
+<BoundingBox CRS="EPSG:4326" minx="11.920873" miny="74.096308" maxx="18.297845" maxy="78.350587"/>
+<BoundingBox CRS="EPSG:3857" minx="8248363.269779" miny="1336704.548558" maxx="8721947.451469" maxy="2072440.450975"/>
+<BoundingBox CRS="EPSG:102100" minx="8248363.269779" miny="1336704.548558" maxx="8721947.451469" maxy="2072440.450975"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Track ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=27" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>9449.404762</MinScaleDenominator>
+<MaxScaleDenominator>1889880.952381</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>28</Name>
+<Title>
+<![CDATA[ DH ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.083394</westBoundLongitude>
+<eastBoundLongitude>78.669127</eastBoundLongitude>
+<southBoundLatitude>11.626603</southBoundLatitude>
+<northBoundLatitude>18.465118</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.083394" miny="11.626603" maxx="78.669127" maxy="18.465118"/>
+<BoundingBox CRS="EPSG:4326" minx="11.626603" miny="74.083394" maxx="18.465118" maxy="78.669127"/>
+<BoundingBox CRS="EPSG:3857" minx="8246925.683184" miny="1303242.541664" maxx="8757407.194458" maxy="2092062.305591"/>
+<BoundingBox CRS="EPSG:102100" minx="8246925.683184" miny="1303242.541664" maxx="8757407.194458" maxy="2092062.305591"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ DH ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=28" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+<MaxScaleDenominator>94494.047619</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>29</Name>
+<Title>
+<![CDATA[ SH ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.109692</westBoundLongitude>
+<eastBoundLongitude>78.501638</eastBoundLongitude>
+<southBoundLatitude>11.784332</southBoundLatitude>
+<northBoundLatitude>18.329425</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.109692" miny="11.784332" maxx="78.501638" maxy="18.329425"/>
+<BoundingBox CRS="EPSG:4326" minx="11.784332" miny="74.109692" maxx="18.329425" maxy="78.501638"/>
+<BoundingBox CRS="EPSG:3857" minx="8249853.146412" miny="1321173.725311" maxx="8738762.380142" maxy="2076143.449592"/>
+<BoundingBox CRS="EPSG:102100" minx="8249853.146412" miny="1321173.725311" maxx="8738762.380142" maxy="2076143.449592"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ SH ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=29" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+<MaxScaleDenominator>472471.183036</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>30</Name>
+<Title>
+<![CDATA[ NH ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.079249</westBoundLongitude>
+<eastBoundLongitude>78.632022</eastBoundLongitude>
+<southBoundLatitude>11.600867</southBoundLatitude>
+<northBoundLatitude>17.951033</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.079249" miny="11.600867" maxx="78.632022" maxy="17.951033"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600867" miny="74.079249" maxx="17.951033" maxy="78.632022"/>
+<BoundingBox CRS="EPSG:3857" minx="8246464.297622" miny="1300317.749142" maxx="8753276.624371" maxy="2031817.818503"/>
+<BoundingBox CRS="EPSG:102100" minx="8246464.297622" miny="1300317.749142" maxx="8753276.624371" maxy="2031817.818503"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ NH ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=30" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.023810</MinScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Point ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.079229</westBoundLongitude>
+<eastBoundLongitude>78.675034</eastBoundLongitude>
+<southBoundLatitude>11.600698</southBoundLatitude>
+<northBoundLatitude>18.481283</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.079229" miny="11.600698" maxx="78.675034" maxy="18.481283"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600698" miny="74.079229" maxx="18.481283" maxy="78.675034"/>
+<BoundingBox CRS="EPSG:3857" minx="8246462.015243" miny="1300298.502078" maxx="8758064.729060" maxy="2093959.539695"/>
+<BoundingBox CRS="EPSG:102100" minx="8246462.015243" miny="1300298.502078" maxx="8758064.729060" maxy="2093959.539695"/>
+<MaxScaleDenominator>7559.523810</MaxScaleDenominator>
+<Layer queryable="1">
+<Name>32</Name>
+<Title>
+<![CDATA[ Wind_Mill ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.446779</westBoundLongitude>
+<eastBoundLongitude>78.111670</eastBoundLongitude>
+<southBoundLatitude>12.823006</southBoundLatitude>
+<northBoundLatitude>17.781534</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.446779" miny="12.823006" maxx="78.111670" maxy="17.781534"/>
+<BoundingBox CRS="EPSG:4326" minx="12.823006" miny="74.446779" maxx="17.781534" maxy="78.111670"/>
+<BoundingBox CRS="EPSG:3857" minx="8287377.511091" miny="1439518.322120" maxx="8695351.360667" maxy="2011993.287042"/>
+<BoundingBox CRS="EPSG:102100" minx="8287377.511091" miny="1439518.322120" maxx="8695351.360667" maxy="2011993.287042"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Wind_Mill ]]>
+</Title>
+<LegendURL width="31" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=32" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>33</Name>
+<Title>
+<![CDATA[ Telecom_Tower ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.112952</westBoundLongitude>
+<eastBoundLongitude>78.657901</eastBoundLongitude>
+<southBoundLatitude>11.688570</southBoundLatitude>
+<northBoundLatitude>18.403574</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.112952" miny="11.688570" maxx="78.657901" maxy="18.403574"/>
+<BoundingBox CRS="EPSG:4326" minx="11.688570" miny="74.112952" maxx="18.403574" maxy="78.657901"/>
+<BoundingBox CRS="EPSG:3857" minx="8250216.075544" miny="1310285.940090" maxx="8756157.499732" maxy="2084840.710721"/>
+<BoundingBox CRS="EPSG:102100" minx="8250216.075544" miny="1310285.940090" maxx="8756157.499732" maxy="2084840.710721"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Telecom_Tower ]]>
+</Title>
+<LegendURL width="18" height="29">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=33" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>34</Name>
+<Title>
+<![CDATA[ Road_Culvert ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.100308</westBoundLongitude>
+<eastBoundLongitude>78.675034</eastBoundLongitude>
+<southBoundLatitude>11.600698</southBoundLatitude>
+<northBoundLatitude>18.481283</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.100308" miny="11.600698" maxx="78.675034" maxy="18.481283"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600698" miny="74.100308" maxx="18.481283" maxy="78.675034"/>
+<BoundingBox CRS="EPSG:3857" minx="8248808.571127" miny="1300298.502078" maxx="8758064.729060" maxy="2093959.539978"/>
+<BoundingBox CRS="EPSG:102100" minx="8248808.571127" miny="1300298.502078" maxx="8758064.729060" maxy="2093959.539978"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Culvert ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=34" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>35</Name>
+<Title>
+<![CDATA[ Road_Bridge ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.097009</westBoundLongitude>
+<eastBoundLongitude>78.663816</eastBoundLongitude>
+<southBoundLatitude>11.621200</southBoundLatitude>
+<northBoundLatitude>18.480650</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.097009" miny="11.621200" maxx="78.663816" maxy="18.480650"/>
+<BoundingBox CRS="EPSG:4326" minx="11.621200" miny="74.097009" maxx="18.480650" maxy="78.663816"/>
+<BoundingBox CRS="EPSG:3857" minx="8248441.365920" miny="1302628.512706" maxx="8756815.964753" maxy="2093885.202871"/>
+<BoundingBox CRS="EPSG:102100" minx="8248441.365920" miny="1302628.512706" maxx="8756815.964753" maxy="2093885.202871"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Road_Bridge ]]>
+</Title>
+<LegendURL width="91" height="76">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=35" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>36</Name>
+<Title>
+<![CDATA[ Rly_Tunnel ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.110080</westBoundLongitude>
+<eastBoundLongitude>77.211824</eastBoundLongitude>
+<southBoundLatitude>12.751634</southBoundLatitude>
+<northBoundLatitude>15.380722</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.110080" miny="12.751634" maxx="77.211824" maxy="15.380722"/>
+<BoundingBox CRS="EPSG:4326" minx="12.751634" miny="74.110080" maxx="15.380722" maxy="77.211824"/>
+<BoundingBox CRS="EPSG:3857" minx="8249896.406503" miny="1431371.088407" maxx="8595180.972283" maxy="1733116.419602"/>
+<BoundingBox CRS="EPSG:102100" minx="8249896.406503" miny="1431371.088407" maxx="8595180.972283" maxy="1733116.419602"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Tunnel ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=36" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>37</Name>
+<Title>
+<![CDATA[ Rly_Station ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.132620</westBoundLongitude>
+<eastBoundLongitude>78.284090</eastBoundLongitude>
+<southBoundLatitude>11.984078</southBoundLatitude>
+<northBoundLatitude>18.252891</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.132620" miny="11.984078" maxx="78.284090" maxy="18.252891"/>
+<BoundingBox CRS="EPSG:4326" minx="11.984078" miny="74.132620" maxx="18.252891" maxy="78.284090"/>
+<BoundingBox CRS="EPSG:3857" minx="8252405.464421" miny="1343896.435776" maxx="8714545.079263" maxy="2067170.344057"/>
+<BoundingBox CRS="EPSG:102100" minx="8252405.464421" miny="1343896.435776" maxx="8714545.079263" maxy="2067170.344057"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Station ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=37" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>38</Name>
+<Title>
+<![CDATA[ Rly_Culvert ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.100562</westBoundLongitude>
+<eastBoundLongitude>78.392288</eastBoundLongitude>
+<southBoundLatitude>11.932065</southBoundLatitude>
+<northBoundLatitude>18.292496</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.100562" miny="11.932065" maxx="78.392288" maxy="18.292496"/>
+<BoundingBox CRS="EPSG:4326" minx="11.932065" miny="74.100562" maxx="18.292496" maxy="78.392288"/>
+<BoundingBox CRS="EPSG:3857" minx="8248836.781844" miny="1337977.945762" maxx="8726589.563397" maxy="2071813.301436"/>
+<BoundingBox CRS="EPSG:102100" minx="8248836.781844" miny="1337977.945762" maxx="8726589.563397" maxy="2071813.301436"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Culvert ]]>
+</Title>
+<LegendURL width="18" height="21">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=38" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>39</Name>
+<Title>
+<![CDATA[ Rly_Bridge ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.121796</westBoundLongitude>
+<eastBoundLongitude>78.281947</eastBoundLongitude>
+<southBoundLatitude>11.952272</southBoundLatitude>
+<northBoundLatitude>18.283007</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.121796" miny="11.952272" maxx="78.281947" maxy="18.283007"/>
+<BoundingBox CRS="EPSG:4326" minx="11.952272" miny="74.121796" maxx="18.283007" maxy="78.281947"/>
+<BoundingBox CRS="EPSG:3857" minx="8251200.557196" miny="1340277.181169" maxx="8714306.453898" maxy="2070700.783540"/>
+<BoundingBox CRS="EPSG:102100" minx="8251200.557196" miny="1340277.181169" maxx="8714306.453898" maxy="2070700.783540"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Rly_Bridge ]]>
+</Title>
+<LegendURL width="91" height="75">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=39" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>40</Name>
+<Title>
+<![CDATA[ Power_Station ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.306362</westBoundLongitude>
+<eastBoundLongitude>78.430456</eastBoundLongitude>
+<southBoundLatitude>11.719917</southBoundLatitude>
+<northBoundLatitude>18.385841</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.306362" miny="11.719917" maxx="78.430456" maxy="18.385841"/>
+<BoundingBox CRS="EPSG:4326" minx="11.719917" miny="74.306362" maxx="18.385841" maxy="78.430456"/>
+<BoundingBox CRS="EPSG:3857" minx="8271746.347846" miny="1313849.549023" maxx="8730838.442234" maxy="2082760.413294"/>
+<BoundingBox CRS="EPSG:102100" minx="8271746.347846" miny="1313849.549023" maxx="8730838.442234" maxy="2082760.413294"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Power_Station ]]>
+</Title>
+<LegendURL width="18" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=40" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>41</Name>
+<Title>
+<![CDATA[ Port ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.503865</westBoundLongitude>
+<eastBoundLongitude>75.768527</eastBoundLongitude>
+<southBoundLatitude>12.849278</southBoundLatitude>
+<northBoundLatitude>14.030075</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.503865" miny="12.849278" maxx="75.768527" maxy="14.030075"/>
+<BoundingBox CRS="EPSG:4326" minx="12.849278" miny="74.503865" maxx="14.030075" maxy="75.768527"/>
+<BoundingBox CRS="EPSG:3857" minx="8293732.319323" miny="1442517.895897" maxx="8434513.800411" maxy="1577667.146700"/>
+<BoundingBox CRS="EPSG:102100" minx="8293732.319323" miny="1442517.895897" maxx="8434513.800411" maxy="1577667.146700"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Port ]]>
+</Title>
+<LegendURL width="26" height="26">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=41" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>42</Name>
+<Title>
+<![CDATA[ Petrol_Station ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.313502</westBoundLongitude>
+<eastBoundLongitude>78.454593</eastBoundLongitude>
+<southBoundLatitude>11.812187</southBoundLatitude>
+<northBoundLatitude>18.265050</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.313502" miny="11.812187" maxx="78.454593" maxy="18.265050"/>
+<BoundingBox CRS="EPSG:4326" minx="11.812187" miny="74.313502" maxx="18.265050" maxy="78.454593"/>
+<BoundingBox CRS="EPSG:3857" minx="8272541.202074" miny="1324341.442370" maxx="8733525.302689" maxy="2068595.672078"/>
+<BoundingBox CRS="EPSG:102100" minx="8272541.202074" miny="1324341.442370" maxx="8733525.302689" maxy="2068595.672078"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Petrol_Station ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=42" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>43</Name>
+<Title>
+<![CDATA[ OHT ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.117280</westBoundLongitude>
+<eastBoundLongitude>78.671189</eastBoundLongitude>
+<southBoundLatitude>11.627862</southBoundLatitude>
+<northBoundLatitude>18.409594</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.117280" miny="11.627862" maxx="78.671189" maxy="18.409594"/>
+<BoundingBox CRS="EPSG:4326" minx="11.627862" miny="74.117280" maxx="18.409594" maxy="78.671189"/>
+<BoundingBox CRS="EPSG:3857" minx="8250697.846799" miny="1303385.655331" maxx="8757636.670445" maxy="2085547.031334"/>
+<BoundingBox CRS="EPSG:102100" minx="8250697.846799" miny="1303385.655331" maxx="8757636.670445" maxy="2085547.031334"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ OHT ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=43" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>44</Name>
+<Title>
+<![CDATA[ Level_Crossing ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.326747</westBoundLongitude>
+<eastBoundLongitude>78.253154</eastBoundLongitude>
+<southBoundLatitude>12.014373</southBoundLatitude>
+<northBoundLatitude>18.168269</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.326747" miny="12.014373" maxx="78.253154" maxy="18.168269"/>
+<BoundingBox CRS="EPSG:4326" minx="12.014373" miny="74.326747" maxx="18.168269" maxy="78.253154"/>
+<BoundingBox CRS="EPSG:3857" minx="8274015.655989" miny="1347344.232003" maxx="8711101.288607" maxy="2057253.535769"/>
+<BoundingBox CRS="EPSG:102100" minx="8274015.655989" miny="1347344.232003" maxx="8711101.288607" maxy="2057253.535769"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Level_Crossing ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=44" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>45</Name>
+<Title>
+<![CDATA[ HT_Power_Pylon ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.149346</westBoundLongitude>
+<eastBoundLongitude>78.667759</eastBoundLongitude>
+<southBoundLatitude>11.723168</southBoundLatitude>
+<northBoundLatitude>18.307866</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.149346" miny="11.723168" maxx="78.667759" maxy="18.307866"/>
+<BoundingBox CRS="EPSG:4326" minx="11.723168" miny="74.149346" maxx="18.307866" maxy="78.667759"/>
+<BoundingBox CRS="EPSG:3857" minx="8254267.460401" miny="1314219.218713" maxx="8757254.901262" maxy="2073615.393130"/>
+<BoundingBox CRS="EPSG:102100" minx="8254267.460401" miny="1314219.218713" maxx="8757254.901262" maxy="2073615.393130"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ HT_Power_Pylon ]]>
+</Title>
+<LegendURL width="25" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=45" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>46</Name>
+<Title>
+<![CDATA[ Helipad ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.816242</westBoundLongitude>
+<eastBoundLongitude>77.982835</eastBoundLongitude>
+<southBoundLatitude>11.894824</southBoundLatitude>
+<northBoundLatitude>17.798360</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.816242" miny="11.894824" maxx="77.982835" maxy="17.798360"/>
+<BoundingBox CRS="EPSG:4326" minx="11.894824" miny="74.816242" maxx="17.798360" maxy="77.982835"/>
+<BoundingBox CRS="EPSG:3857" minx="8328505.930501" miny="1333741.045502" maxx="8681009.464886" maxy="2013960.427024"/>
+<BoundingBox CRS="EPSG:102100" minx="8328505.930501" miny="1333741.045502" maxx="8681009.464886" maxy="2013960.427024"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Helipad ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=46" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>47</Name>
+<Title>
+<![CDATA[ Dam ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.294053</westBoundLongitude>
+<eastBoundLongitude>78.592721</eastBoundLongitude>
+<southBoundLatitude>11.813821</southBoundLatitude>
+<northBoundLatitude>17.901194</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.294053" miny="11.813821" maxx="78.592721" maxy="17.901194"/>
+<BoundingBox CRS="EPSG:4326" minx="11.813821" miny="74.294053" maxx="17.901194" maxy="78.592721"/>
+<BoundingBox CRS="EPSG:3857" minx="8270376.192953" miny="1324527.315696" maxx="8748901.720810" maxy="2025986.713719"/>
+<BoundingBox CRS="EPSG:102100" minx="8270376.192953" miny="1324527.315696" maxx="8748901.720810" maxy="2025986.713719"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Dam ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=47" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>48</Name>
+<Title>
+<![CDATA[ Check_Dam ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.118980</westBoundLongitude>
+<eastBoundLongitude>78.661391</eastBoundLongitude>
+<southBoundLatitude>11.604085</southBoundLatitude>
+<northBoundLatitude>18.481155</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.118980" miny="11.604085" maxx="78.661391" maxy="18.481155"/>
+<BoundingBox CRS="EPSG:4326" minx="11.604085" miny="74.118980" maxx="18.481155" maxy="78.661391"/>
+<BoundingBox CRS="EPSG:3857" minx="8250887.141348" miny="1300683.442809" maxx="8756546.016809" maxy="2093944.565445"/>
+<BoundingBox CRS="EPSG:102100" minx="8250887.141348" miny="1300683.442809" maxx="8756546.016809" maxy="2093944.565445"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Check_Dam ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=48" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>49</Name>
+<Title>
+<![CDATA[ Barrage ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.080139</westBoundLongitude>
+<eastBoundLongitude>78.181569</eastBoundLongitude>
+<southBoundLatitude>11.764855</southBoundLatitude>
+<northBoundLatitude>18.309720</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.080139" miny="11.764855" maxx="78.181569" maxy="18.309720"/>
+<BoundingBox CRS="EPSG:4326" minx="11.764855" miny="74.080139" maxx="18.309720" maxy="78.181569"/>
+<BoundingBox CRS="EPSG:3857" minx="8246563.403532" miny="1318958.955538" maxx="8703132.394942" maxy="2073832.785878"/>
+<BoundingBox CRS="EPSG:102100" minx="8246563.403532" miny="1318958.955538" maxx="8703132.394942" maxy="2073832.785878"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Barrage ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=49" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+<Layer queryable="1">
+<Name>50</Name>
+<Title>
+<![CDATA[ Airport ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.610051</westBoundLongitude>
+<eastBoundLongitude>78.235918</eastBoundLongitude>
+<southBoundLatitude>12.214729</southBoundLatitude>
+<northBoundLatitude>17.318568</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.610051" miny="12.214729" maxx="78.235918" maxy="17.318568"/>
+<BoundingBox CRS="EPSG:4326" minx="12.214729" miny="74.610051" maxx="17.318568" maxy="78.235918"/>
+<BoundingBox CRS="EPSG:3857" minx="8305552.866698" miny="1370155.734945" maxx="8709182.602171" maxy="1957940.010420"/>
+<BoundingBox CRS="EPSG:102100" minx="8305552.866698" miny="1370155.734945" maxx="8709182.602171" maxy="1957940.010420"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Airport ]]>
+</Title>
+<LegendURL width="19" height="19">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=50" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Name>51</Name>
+<Title>
+<![CDATA[ Settlement ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.080950</westBoundLongitude>
+<eastBoundLongitude>78.674323</eastBoundLongitude>
+<southBoundLatitude>11.615831</southBoundLatitude>
+<northBoundLatitude>18.482420</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.080950" miny="11.615831" maxx="78.674323" maxy="18.482420"/>
+<BoundingBox CRS="EPSG:4326" minx="11.615831" miny="74.080950" maxx="18.482420" maxy="78.674323"/>
+<BoundingBox CRS="EPSG:3857" minx="8246653.644886" miny="1302018.255473" maxx="8757985.523347" maxy="2094093.059928"/>
+<BoundingBox CRS="EPSG:102100" minx="8246653.644886" miny="1302018.255473" maxx="8757985.523347" maxy="2094093.059928"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Settlement ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=51" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MaxScaleDenominator>47247.023810</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>52</Name>
+<Title>
+<![CDATA[ Taluk_HQ ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.270694</westBoundLongitude>
+<eastBoundLongitude>78.504013</eastBoundLongitude>
+<southBoundLatitude>11.762936</southBoundLatitude>
+<northBoundLatitude>18.264699</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.270694" miny="11.762936" maxx="78.504013" maxy="18.264699"/>
+<BoundingBox CRS="EPSG:4326" minx="11.762936" miny="74.270694" maxx="18.264699" maxy="78.504013"/>
+<BoundingBox CRS="EPSG:3857" minx="8267775.870007" miny="1318740.758652" maxx="8739026.775498" maxy="2068554.491199"/>
+<BoundingBox CRS="EPSG:102100" minx="8267775.870007" miny="1318740.758652" maxx="8739026.775498" maxy="2068554.491199"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Taluk_HQ ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=52" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.968750</MinScaleDenominator>
+<MaxScaleDenominator>1889880.952381</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Name>53</Name>
+<Title>
+<![CDATA[ District_HQ ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.613271</westBoundLongitude>
+<eastBoundLongitude>78.293220</eastBoundLongitude>
+<southBoundLatitude>11.947178</southBoundLatitude>
+<northBoundLatitude>17.964464</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.613271" miny="11.947178" maxx="78.293220" maxy="17.964464"/>
+<BoundingBox CRS="EPSG:4326" minx="11.947178" miny="74.613271" maxx="17.964464" maxy="78.293220"/>
+<BoundingBox CRS="EPSG:3857" minx="8305911.325307" miny="1339697.539287" maxx="8715561.410449" maxy="2033389.578077"/>
+<BoundingBox CRS="EPSG:102100" minx="8305911.325307" miny="1339697.539287" maxx="8715561.410449" maxy="2033389.578077"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ District_HQ ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=53" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>47247.968750</MinScaleDenominator>
+<MaxScaleDenominator>2834821.428571</MaxScaleDenominator>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level17 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.303008</westBoundLongitude>
+<eastBoundLongitude>78.412319</eastBoundLongitude>
+<southBoundLatitude>11.731139</southBoundLatitude>
+<northBoundLatitude>17.843135</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.303008" miny="11.731139" maxx="78.412319" maxy="17.843135"/>
+<BoundingBox CRS="EPSG:4326" minx="11.731139" miny="74.303008" maxx="17.843135" maxy="78.412319"/>
+<BoundingBox CRS="EPSG:3857" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<BoundingBox CRS="EPSG:102100" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<MaxScaleDenominator>4724.702381</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno6 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.303008</westBoundLongitude>
+<eastBoundLongitude>78.412319</eastBoundLongitude>
+<southBoundLatitude>11.731139</southBoundLatitude>
+<northBoundLatitude>17.843135</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.303008" miny="11.731139" maxx="78.412319" maxy="17.843135"/>
+<BoundingBox CRS="EPSG:4326" minx="11.731139" miny="74.303008" maxx="17.843135" maxy="78.412319"/>
+<BoundingBox CRS="EPSG:3857" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<BoundingBox CRS="EPSG:102100" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<Layer>
+<Name>56</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.303008</westBoundLongitude>
+<eastBoundLongitude>78.412319</eastBoundLongitude>
+<southBoundLatitude>11.731139</southBoundLatitude>
+<northBoundLatitude>17.843135</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.303008" miny="11.731139" maxx="78.412319" maxy="17.843135"/>
+<BoundingBox CRS="EPSG:4326" minx="11.731139" miny="74.303008" maxx="17.843135" maxy="78.412319"/>
+<BoundingBox CRS="EPSG:3857" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<BoundingBox CRS="EPSG:102100" minx="8271373.015278" miny="1315125.437904" maxx="8728819.389956" maxy="2019195.903727"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=56" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level16 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.082629</westBoundLongitude>
+<eastBoundLongitude>78.613663</eastBoundLongitude>
+<southBoundLatitude>11.583260</southBoundLatitude>
+<northBoundLatitude>18.327372</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.082629" miny="11.583260" maxx="78.613663" maxy="18.327372"/>
+<BoundingBox CRS="EPSG:4326" minx="11.583260" miny="74.082629" maxx="18.327372" maxy="78.613663"/>
+<BoundingBox CRS="EPSG:3857" minx="8246840.592175" miny="1298316.930788" maxx="8751232.879155" maxy="2075902.727575"/>
+<BoundingBox CRS="EPSG:102100" minx="8246840.592175" miny="1298316.930788" maxx="8751232.879155" maxy="2075902.727575"/>
+<MinScaleDenominator>4725.647321</MinScaleDenominator>
+<MaxScaleDenominator>9449.404762</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ SHAnno5 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.116939</westBoundLongitude>
+<eastBoundLongitude>78.501120</eastBoundLongitude>
+<southBoundLatitude>11.784407</southBoundLatitude>
+<northBoundLatitude>18.327372</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.116939" miny="11.784407" maxx="78.501120" maxy="18.327372"/>
+<BoundingBox CRS="EPSG:4326" minx="11.784407" miny="74.116939" maxx="18.327372" maxy="78.501120"/>
+<BoundingBox CRS="EPSG:3857" minx="8250659.905168" miny="1321182.250891" maxx="8738704.662785" maxy="2075902.727349"/>
+<BoundingBox CRS="EPSG:102100" minx="8250659.905168" miny="1321182.250891" maxx="8738704.662785" maxy="2075902.727349"/>
+<Layer>
+<Name>59</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.116939</westBoundLongitude>
+<eastBoundLongitude>78.501120</eastBoundLongitude>
+<southBoundLatitude>11.784407</southBoundLatitude>
+<northBoundLatitude>18.327372</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.116939" miny="11.784407" maxx="78.501120" maxy="18.327372"/>
+<BoundingBox CRS="EPSG:4326" minx="11.784407" miny="74.116939" maxx="18.327372" maxy="78.501120"/>
+<BoundingBox CRS="EPSG:3857" minx="8250659.905168" miny="1321182.250891" maxx="8738704.662785" maxy="2075902.727349"/>
+<BoundingBox CRS="EPSG:102100" minx="8250659.905168" miny="1321182.250891" maxx="8738704.662785" maxy="2075902.727349"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=59" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NHAnno9 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.084615</westBoundLongitude>
+<eastBoundLongitude>78.605859</eastBoundLongitude>
+<southBoundLatitude>11.601941</southBoundLatitude>
+<northBoundLatitude>17.945944</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.084615" miny="11.601941" maxx="78.605859" maxy="17.945944"/>
+<BoundingBox CRS="EPSG:4326" minx="11.601941" miny="74.084615" maxx="17.945944" maxy="78.605859"/>
+<BoundingBox CRS="EPSG:3857" minx="8247061.655871" miny="1300439.815651" maxx="8750364.227447" maxy="2031222.354134"/>
+<BoundingBox CRS="EPSG:102100" minx="8247061.655871" miny="1300439.815651" maxx="8750364.227447" maxy="2031222.354134"/>
+<Layer>
+<Name>61</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.084615</westBoundLongitude>
+<eastBoundLongitude>78.605859</eastBoundLongitude>
+<southBoundLatitude>11.601941</southBoundLatitude>
+<northBoundLatitude>17.945944</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.084615" miny="11.601941" maxx="78.605859" maxy="17.945944"/>
+<BoundingBox CRS="EPSG:4326" minx="11.601941" miny="74.084615" maxx="17.945944" maxy="78.605859"/>
+<BoundingBox CRS="EPSG:3857" minx="8247061.655871" miny="1300439.815651" maxx="8750364.227447" maxy="2031222.354134"/>
+<BoundingBox CRS="EPSG:102100" minx="8247061.655871" miny="1300439.815651" maxx="8750364.227447" maxy="2031222.354134"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=61" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ RiverAnno3 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.109877</westBoundLongitude>
+<eastBoundLongitude>78.182687</eastBoundLongitude>
+<southBoundLatitude>11.588002</southBoundLatitude>
+<northBoundLatitude>18.219068</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.109877" miny="11.588002" maxx="78.182687" maxy="18.219068"/>
+<BoundingBox CRS="EPSG:4326" minx="11.588002" miny="74.109877" maxx="18.219068" maxy="78.182687"/>
+<BoundingBox CRS="EPSG:3857" minx="8249873.787341" miny="1298855.724018" maxx="8703256.855378" maxy="2063206.080290"/>
+<BoundingBox CRS="EPSG:102100" minx="8249873.787341" miny="1298855.724018" maxx="8703256.855378" maxy="2063206.080290"/>
+<Layer>
+<Name>63</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.109877</westBoundLongitude>
+<eastBoundLongitude>78.182687</eastBoundLongitude>
+<southBoundLatitude>11.588002</southBoundLatitude>
+<northBoundLatitude>18.219068</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.109877" miny="11.588002" maxx="78.182687" maxy="18.219068"/>
+<BoundingBox CRS="EPSG:4326" minx="11.588002" miny="74.109877" maxx="18.219068" maxy="78.182687"/>
+<BoundingBox CRS="EPSG:3857" minx="8249873.787341" miny="1298855.724018" maxx="8703256.855378" maxy="2063206.080290"/>
+<BoundingBox CRS="EPSG:102100" minx="8249873.787341" miny="1298855.724018" maxx="8703256.855378" maxy="2063206.080290"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=63" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno5 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.302547</westBoundLongitude>
+<eastBoundLongitude>78.412880</eastBoundLongitude>
+<southBoundLatitude>11.730991</southBoundLatitude>
+<northBoundLatitude>17.843341</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.302547" miny="11.730991" maxx="78.412880" maxy="17.843341"/>
+<BoundingBox CRS="EPSG:4326" minx="11.730991" miny="74.302547" maxx="17.843341" maxy="78.412880"/>
+<BoundingBox CRS="EPSG:3857" minx="8271321.680677" miny="1315108.626137" maxx="8728881.831071" maxy="2019219.947909"/>
+<BoundingBox CRS="EPSG:102100" minx="8271321.680677" miny="1315108.626137" maxx="8728881.831071" maxy="2019219.947909"/>
+<Layer>
+<Name>65</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.302547</westBoundLongitude>
+<eastBoundLongitude>78.412880</eastBoundLongitude>
+<southBoundLatitude>11.730991</southBoundLatitude>
+<northBoundLatitude>17.843341</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.302547" miny="11.730991" maxx="78.412880" maxy="17.843341"/>
+<BoundingBox CRS="EPSG:4326" minx="11.730991" miny="74.302547" maxx="17.843341" maxy="78.412880"/>
+<BoundingBox CRS="EPSG:3857" minx="8271321.680677" miny="1315108.626137" maxx="8728881.831071" maxy="2019219.947909"/>
+<BoundingBox CRS="EPSG:102100" minx="8271321.680677" miny="1315108.626137" maxx="8728881.831071" maxy="2019219.947909"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=65" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level15 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.102334</westBoundLongitude>
+<eastBoundLongitude>78.623410</eastBoundLongitude>
+<southBoundLatitude>11.582619</southBoundLatitude>
+<northBoundLatitude>18.323077</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.102334" miny="11.582619" maxx="78.623410" maxy="18.323077"/>
+<BoundingBox CRS="EPSG:4326" minx="11.582619" miny="74.102334" maxx="18.323077" maxy="78.623410"/>
+<BoundingBox CRS="EPSG:3857" minx="8249034.124497" miny="1298244.094856" maxx="8752317.942940" maxy="2075399.017209"/>
+<BoundingBox CRS="EPSG:102100" minx="8249034.124497" miny="1298244.094856" maxx="8752317.942940" maxy="2075399.017209"/>
+<MinScaleDenominator>9450.349702</MinScaleDenominator>
+<MaxScaleDenominator>23623.511905</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ RiverAnno2 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.108305</westBoundLongitude>
+<eastBoundLongitude>78.183356</eastBoundLongitude>
+<southBoundLatitude>11.587468</southBoundLatitude>
+<northBoundLatitude>18.214760</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.108305" miny="11.587468" maxx="78.183356" maxy="18.214760"/>
+<BoundingBox CRS="EPSG:4326" minx="11.587468" miny="74.108305" maxx="18.214760" maxy="78.183356"/>
+<BoundingBox CRS="EPSG:3857" minx="8249698.767487" miny="1298795.132381" maxx="8703331.339639" maxy="2062701.168321"/>
+<BoundingBox CRS="EPSG:102100" minx="8249698.767487" miny="1298795.132381" maxx="8703331.339639" maxy="2062701.168321"/>
+<Layer>
+<Name>68</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.108305</westBoundLongitude>
+<eastBoundLongitude>78.183356</eastBoundLongitude>
+<southBoundLatitude>11.587468</southBoundLatitude>
+<northBoundLatitude>18.214760</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.108305" miny="11.587468" maxx="78.183356" maxy="18.214760"/>
+<BoundingBox CRS="EPSG:4326" minx="11.587468" miny="74.108305" maxx="18.214760" maxy="78.183356"/>
+<BoundingBox CRS="EPSG:3857" minx="8249698.767487" miny="1298795.132381" maxx="8703331.339639" maxy="2062701.168321"/>
+<BoundingBox CRS="EPSG:102100" minx="8249698.767487" miny="1298795.132381" maxx="8703331.339639" maxy="2062701.168321"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=68" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ SHAnno4 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.119409</westBoundLongitude>
+<eastBoundLongitude>78.484780</eastBoundLongitude>
+<southBoundLatitude>11.784386</southBoundLatitude>
+<northBoundLatitude>18.323077</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.119409" miny="11.784386" maxx="78.484780" maxy="18.323077"/>
+<BoundingBox CRS="EPSG:4326" minx="11.784386" miny="74.119409" maxx="18.323077" maxy="78.484780"/>
+<BoundingBox CRS="EPSG:3857" minx="8250934.815516" miny="1321179.925049" maxx="8736885.737472" maxy="2075399.017277"/>
+<BoundingBox CRS="EPSG:102100" minx="8250934.815516" miny="1321179.925049" maxx="8736885.737472" maxy="2075399.017277"/>
+<Layer>
+<Name>70</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.119409</westBoundLongitude>
+<eastBoundLongitude>78.484780</eastBoundLongitude>
+<southBoundLatitude>11.784386</southBoundLatitude>
+<northBoundLatitude>18.323077</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.119409" miny="11.784386" maxx="78.484780" maxy="18.323077"/>
+<BoundingBox CRS="EPSG:4326" minx="11.784386" miny="74.119409" maxx="18.323077" maxy="78.484780"/>
+<BoundingBox CRS="EPSG:3857" minx="8250934.815516" miny="1321179.925049" maxx="8736885.737472" maxy="2075399.017277"/>
+<BoundingBox CRS="EPSG:102100" minx="8250934.815516" miny="1321179.925049" maxx="8736885.737472" maxy="2075399.017277"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=70" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NHAnno8 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.104247</westBoundLongitude>
+<eastBoundLongitude>78.615710</eastBoundLongitude>
+<southBoundLatitude>11.610967</southBoundLatitude>
+<northBoundLatitude>17.947705</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.104247" miny="11.610967" maxx="78.615710" maxy="17.947705"/>
+<BoundingBox CRS="EPSG:4326" minx="11.610967" miny="74.104247" maxx="17.947705" maxy="78.615710"/>
+<BoundingBox CRS="EPSG:3857" minx="8249246.994179" miny="1301465.506999" maxx="8751460.840615" maxy="2031428.449485"/>
+<BoundingBox CRS="EPSG:102100" minx="8249246.994179" miny="1301465.506999" maxx="8751460.840615" maxy="2031428.449485"/>
+<Layer>
+<Name>72</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.104247</westBoundLongitude>
+<eastBoundLongitude>78.615710</eastBoundLongitude>
+<southBoundLatitude>11.610967</southBoundLatitude>
+<northBoundLatitude>17.947705</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.104247" miny="11.610967" maxx="78.615710" maxy="17.947705"/>
+<BoundingBox CRS="EPSG:4326" minx="11.610967" miny="74.104247" maxx="17.947705" maxy="78.615710"/>
+<BoundingBox CRS="EPSG:3857" minx="8249246.994179" miny="1301465.506999" maxx="8751460.840615" maxy="2031428.449485"/>
+<BoundingBox CRS="EPSG:102100" minx="8249246.994179" miny="1301465.506999" maxx="8751460.840615" maxy="2031428.449485"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=72" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno4 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.303432</westBoundLongitude>
+<eastBoundLongitude>78.418069</eastBoundLongitude>
+<southBoundLatitude>11.729489</southBoundLatitude>
+<northBoundLatitude>17.853343</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.303432" miny="11.729489" maxx="78.418069" maxy="17.853343"/>
+<BoundingBox CRS="EPSG:4326" minx="11.729489" miny="74.303432" maxx="17.853343" maxy="78.418069"/>
+<BoundingBox CRS="EPSG:3857" minx="8271420.214956" miny="1314937.852460" maxx="8729459.475560" maxy="2020389.718554"/>
+<BoundingBox CRS="EPSG:102100" minx="8271420.214956" miny="1314937.852460" maxx="8729459.475560" maxy="2020389.718554"/>
+<Layer>
+<Name>74</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.303432</westBoundLongitude>
+<eastBoundLongitude>78.418069</eastBoundLongitude>
+<southBoundLatitude>11.729489</southBoundLatitude>
+<northBoundLatitude>17.853343</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.303432" miny="11.729489" maxx="78.418069" maxy="17.853343"/>
+<BoundingBox CRS="EPSG:4326" minx="11.729489" miny="74.303432" maxx="17.853343" maxy="78.418069"/>
+<BoundingBox CRS="EPSG:3857" minx="8271420.214956" miny="1314937.852460" maxx="8729459.475560" maxy="2020389.718554"/>
+<BoundingBox CRS="EPSG:102100" minx="8271420.214956" miny="1314937.852460" maxx="8729459.475560" maxy="2020389.718554"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=74" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level14 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.086355</westBoundLongitude>
+<eastBoundLongitude>78.619827</eastBoundLongitude>
+<southBoundLatitude>11.590623</southBoundLatitude>
+<northBoundLatitude>18.323430</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.086355" miny="11.590623" maxx="78.619827" maxy="18.323430"/>
+<BoundingBox CRS="EPSG:4326" minx="11.590623" miny="74.086355" maxx="18.323430" maxy="78.619827"/>
+<BoundingBox CRS="EPSG:3857" minx="8247255.296539" miny="1299153.577983" maxx="8751919.113195" maxy="2075440.408496"/>
+<BoundingBox CRS="EPSG:102100" minx="8247255.296539" miny="1299153.577983" maxx="8751919.113195" maxy="2075440.408496"/>
+<MinScaleDenominator>23624.456845</MinScaleDenominator>
+<MaxScaleDenominator>47247.023810</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ RiverAnno ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.129508</westBoundLongitude>
+<eastBoundLongitude>78.185089</eastBoundLongitude>
+<southBoundLatitude>11.595414</southBoundLatitude>
+<northBoundLatitude>18.208832</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.129508" miny="11.595414" maxx="78.185089" maxy="18.208832"/>
+<BoundingBox CRS="EPSG:4326" minx="11.595414" miny="74.129508" maxx="18.208832" maxy="78.185089"/>
+<BoundingBox CRS="EPSG:3857" minx="8252059.072887" miny="1299698.042413" maxx="8703524.317354" maxy="2062006.554091"/>
+<BoundingBox CRS="EPSG:102100" minx="8252059.072887" miny="1299698.042413" maxx="8703524.317354" maxy="2062006.554091"/>
+<Layer>
+<Name>77</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.129508</westBoundLongitude>
+<eastBoundLongitude>78.185089</eastBoundLongitude>
+<southBoundLatitude>11.595414</southBoundLatitude>
+<northBoundLatitude>18.208832</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.129508" miny="11.595414" maxx="78.185089" maxy="18.208832"/>
+<BoundingBox CRS="EPSG:4326" minx="11.595414" miny="74.129508" maxx="18.208832" maxy="78.185089"/>
+<BoundingBox CRS="EPSG:3857" minx="8252059.072887" miny="1299698.042413" maxx="8703524.317354" maxy="2062006.554091"/>
+<BoundingBox CRS="EPSG:102100" minx="8252059.072887" miny="1299698.042413" maxx="8703524.317354" maxy="2062006.554091"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=77" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ SHAnno3 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.115938</westBoundLongitude>
+<eastBoundLongitude>78.478425</eastBoundLongitude>
+<southBoundLatitude>11.798854</southBoundLatitude>
+<northBoundLatitude>18.323430</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.115938" miny="11.798854" maxx="78.478425" maxy="18.323430"/>
+<BoundingBox CRS="EPSG:4326" minx="11.798854" miny="74.115938" maxx="18.323430" maxy="78.478425"/>
+<BoundingBox CRS="EPSG:3857" minx="8250548.494453" miny="1322825.195835" maxx="8736178.261814" maxy="2075440.408372"/>
+<BoundingBox CRS="EPSG:102100" minx="8250548.494453" miny="1322825.195835" maxx="8736178.261814" maxy="2075440.408372"/>
+<Layer>
+<Name>79</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.115938</westBoundLongitude>
+<eastBoundLongitude>78.478425</eastBoundLongitude>
+<southBoundLatitude>11.798854</southBoundLatitude>
+<northBoundLatitude>18.323430</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.115938" miny="11.798854" maxx="78.478425" maxy="18.323430"/>
+<BoundingBox CRS="EPSG:4326" minx="11.798854" miny="74.115938" maxx="18.323430" maxy="78.478425"/>
+<BoundingBox CRS="EPSG:3857" minx="8250548.494453" miny="1322825.195835" maxx="8736178.261814" maxy="2075440.408372"/>
+<BoundingBox CRS="EPSG:102100" minx="8250548.494453" miny="1322825.195835" maxx="8736178.261814" maxy="2075440.408372"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=79" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NHAnno7 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.088294</westBoundLongitude>
+<eastBoundLongitude>78.612164</eastBoundLongitude>
+<southBoundLatitude>11.665854</southBoundLatitude>
+<northBoundLatitude>17.949504</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.088294" miny="11.665854" maxx="78.612164" maxy="17.949504"/>
+<BoundingBox CRS="EPSG:4326" minx="11.665854" miny="74.088294" maxx="17.949504" maxy="78.612164"/>
+<BoundingBox CRS="EPSG:3857" minx="8247471.134132" miny="1307703.820529" maxx="8751066.095196" maxy="2031638.979830"/>
+<BoundingBox CRS="EPSG:102100" minx="8247471.134132" miny="1307703.820529" maxx="8751066.095196" maxy="2031638.979830"/>
+<Layer>
+<Name>81</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.088294</westBoundLongitude>
+<eastBoundLongitude>78.612164</eastBoundLongitude>
+<southBoundLatitude>11.665854</southBoundLatitude>
+<northBoundLatitude>17.949504</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.088294" miny="11.665854" maxx="78.612164" maxy="17.949504"/>
+<BoundingBox CRS="EPSG:4326" minx="11.665854" miny="74.088294" maxx="17.949504" maxy="78.612164"/>
+<BoundingBox CRS="EPSG:3857" minx="8247471.134132" miny="1307703.820529" maxx="8751066.095196" maxy="2031638.979830"/>
+<BoundingBox CRS="EPSG:102100" minx="8247471.134132" miny="1307703.820529" maxx="8751066.095196" maxy="2031638.979830"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=81" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno3 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.298850</westBoundLongitude>
+<eastBoundLongitude>78.420687</eastBoundLongitude>
+<southBoundLatitude>11.728809</southBoundLatitude>
+<northBoundLatitude>17.845016</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.298850" miny="11.728809" maxx="78.420687" maxy="17.845016"/>
+<BoundingBox CRS="EPSG:4326" minx="11.728809" miny="74.298850" maxx="17.845016" maxy="78.420687"/>
+<BoundingBox CRS="EPSG:3857" minx="8270910.172237" miny="1314860.570587" maxx="8729750.912992" maxy="2019415.923642"/>
+<BoundingBox CRS="EPSG:102100" minx="8270910.172237" miny="1314860.570587" maxx="8729750.912992" maxy="2019415.923642"/>
+<Layer>
+<Name>83</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.298850</westBoundLongitude>
+<eastBoundLongitude>78.420687</eastBoundLongitude>
+<southBoundLatitude>11.728809</southBoundLatitude>
+<northBoundLatitude>17.845016</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.298850" miny="11.728809" maxx="78.420687" maxy="17.845016"/>
+<BoundingBox CRS="EPSG:4326" minx="11.728809" miny="74.298850" maxx="17.845016" maxy="78.420687"/>
+<BoundingBox CRS="EPSG:3857" minx="8270910.172237" miny="1314860.570587" maxx="8729750.912992" maxy="2019415.923642"/>
+<BoundingBox CRS="EPSG:102100" minx="8270910.172237" miny="1314860.570587" maxx="8729750.912992" maxy="2019415.923642"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=83" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level13 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.106928</westBoundLongitude>
+<eastBoundLongitude>78.617242</eastBoundLongitude>
+<southBoundLatitude>11.600203</southBoundLatitude>
+<northBoundLatitude>18.322546</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.106928" miny="11.600203" maxx="78.617242" maxy="18.322546"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600203" miny="74.106928" maxx="18.322546" maxy="78.617242"/>
+<BoundingBox CRS="EPSG:3857" minx="8249545.449917" miny="1300242.277993" maxx="8751631.381250" maxy="2075336.773511"/>
+<BoundingBox CRS="EPSG:102100" minx="8249545.449917" miny="1300242.277993" maxx="8751631.381250" maxy="2075336.773511"/>
+<MinScaleDenominator>47247.968750</MinScaleDenominator>
+<MaxScaleDenominator>94494.047619</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NHAnno6 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.108848</westBoundLongitude>
+<eastBoundLongitude>78.609484</eastBoundLongitude>
+<southBoundLatitude>11.600203</southBoundLatitude>
+<northBoundLatitude>17.943631</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.108848" miny="11.600203" maxx="78.609484" maxy="17.943631"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600203" miny="74.108848" maxx="17.943631" maxy="78.609484"/>
+<BoundingBox CRS="EPSG:3857" minx="8249759.198730" miny="1300242.277993" maxx="8750767.778670" maxy="2030951.707594"/>
+<BoundingBox CRS="EPSG:102100" minx="8249759.198730" miny="1300242.277993" maxx="8750767.778670" maxy="2030951.707594"/>
+<Layer>
+<Name>86</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.108848</westBoundLongitude>
+<eastBoundLongitude>78.609484</eastBoundLongitude>
+<southBoundLatitude>11.600203</southBoundLatitude>
+<northBoundLatitude>17.943631</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.108848" miny="11.600203" maxx="78.609484" maxy="17.943631"/>
+<BoundingBox CRS="EPSG:4326" minx="11.600203" miny="74.108848" maxx="17.943631" maxy="78.609484"/>
+<BoundingBox CRS="EPSG:3857" minx="8249759.198730" miny="1300242.277993" maxx="8750767.778670" maxy="2030951.707594"/>
+<BoundingBox CRS="EPSG:102100" minx="8249759.198730" miny="1300242.277993" maxx="8750767.778670" maxy="2030951.707594"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=86" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno2 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.291670</westBoundLongitude>
+<eastBoundLongitude>78.423545</eastBoundLongitude>
+<southBoundLatitude>11.727593</southBoundLatitude>
+<northBoundLatitude>17.847128</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.291670" miny="11.727593" maxx="78.423545" maxy="17.847128"/>
+<BoundingBox CRS="EPSG:4326" minx="11.727593" miny="74.291670" maxx="17.847128" maxy="78.423545"/>
+<BoundingBox CRS="EPSG:3857" minx="8270110.885812" miny="1314722.284786" maxx="8730069.094635" maxy="2019662.901308"/>
+<BoundingBox CRS="EPSG:102100" minx="8270110.885812" miny="1314722.284786" maxx="8730069.094635" maxy="2019662.901308"/>
+<Layer>
+<Name>88</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.291670</westBoundLongitude>
+<eastBoundLongitude>78.423545</eastBoundLongitude>
+<southBoundLatitude>11.727593</southBoundLatitude>
+<northBoundLatitude>17.847128</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.291670" miny="11.727593" maxx="78.423545" maxy="17.847128"/>
+<BoundingBox CRS="EPSG:4326" minx="11.727593" miny="74.291670" maxx="17.847128" maxy="78.423545"/>
+<BoundingBox CRS="EPSG:3857" minx="8270110.885812" miny="1314722.284786" maxx="8730069.094635" maxy="2019662.901308"/>
+<BoundingBox CRS="EPSG:102100" minx="8270110.885812" miny="1314722.284786" maxx="8730069.094635" maxy="2019662.901308"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=88" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ SHAnno2 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.167849</westBoundLongitude>
+<eastBoundLongitude>78.495663</eastBoundLongitude>
+<southBoundLatitude>11.795096</southBoundLatitude>
+<northBoundLatitude>18.322546</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.167849" miny="11.795096" maxx="78.495663" maxy="18.322546"/>
+<BoundingBox CRS="EPSG:4326" minx="11.795096" miny="74.167849" maxx="18.322546" maxy="78.495663"/>
+<BoundingBox CRS="EPSG:3857" minx="8256327.236351" miny="1322397.842012" maxx="8738097.268183" maxy="2075336.774199"/>
+<BoundingBox CRS="EPSG:102100" minx="8256327.236351" miny="1322397.842012" maxx="8738097.268183" maxy="2075336.774199"/>
+<Layer>
+<Name>90</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.167849</westBoundLongitude>
+<eastBoundLongitude>78.495663</eastBoundLongitude>
+<southBoundLatitude>11.795096</southBoundLatitude>
+<northBoundLatitude>18.322546</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.167849" miny="11.795096" maxx="78.495663" maxy="18.322546"/>
+<BoundingBox CRS="EPSG:4326" minx="11.795096" miny="74.167849" maxx="18.322546" maxy="78.495663"/>
+<BoundingBox CRS="EPSG:3857" minx="8256327.236351" miny="1322397.842012" maxx="8738097.268183" maxy="2075336.774199"/>
+<BoundingBox CRS="EPSG:102100" minx="8256327.236351" miny="1322397.842012" maxx="8738097.268183" maxy="2075336.774199"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=90" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level12 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.080587</westBoundLongitude>
+<eastBoundLongitude>78.625731</eastBoundLongitude>
+<southBoundLatitude>11.679037</southBoundLatitude>
+<northBoundLatitude>18.324743</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.080587" miny="11.679037" maxx="78.625731" maxy="18.324743"/>
+<BoundingBox CRS="EPSG:4326" minx="11.679037" miny="74.080587" maxx="18.324743" maxy="78.625731"/>
+<BoundingBox CRS="EPSG:3857" minx="8246613.237304" miny="1309202.283550" maxx="8752576.322430" maxy="2075594.402503"/>
+<BoundingBox CRS="EPSG:102100" minx="8246613.237304" miny="1309202.283550" maxx="8752576.322430" maxy="2075594.402503"/>
+<MinScaleDenominator>94494.992560</MinScaleDenominator>
+<MaxScaleDenominator>236235.119048</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NHAnno5 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.082640</westBoundLongitude>
+<eastBoundLongitude>78.617655</eastBoundLongitude>
+<southBoundLatitude>11.679037</southBoundLatitude>
+<northBoundLatitude>17.931099</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.082640" miny="11.679037" maxx="78.617655" maxy="17.931099"/>
+<BoundingBox CRS="EPSG:4326" minx="11.679037" miny="74.082640" maxx="17.931099" maxy="78.617655"/>
+<BoundingBox CRS="EPSG:3857" minx="8246841.763138" miny="1309202.283550" maxx="8751677.366352" maxy="2029485.323070"/>
+<BoundingBox CRS="EPSG:102100" minx="8246841.763138" miny="1309202.283550" maxx="8751677.366352" maxy="2029485.323070"/>
+<Layer>
+<Name>93</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.082640</westBoundLongitude>
+<eastBoundLongitude>78.617655</eastBoundLongitude>
+<southBoundLatitude>11.679037</southBoundLatitude>
+<northBoundLatitude>17.931099</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.082640" miny="11.679037" maxx="78.617655" maxy="17.931099"/>
+<BoundingBox CRS="EPSG:4326" minx="11.679037" miny="74.082640" maxx="17.931099" maxy="78.617655"/>
+<BoundingBox CRS="EPSG:3857" minx="8246841.763138" miny="1309202.283550" maxx="8751677.366352" maxy="2029485.323070"/>
+<BoundingBox CRS="EPSG:102100" minx="8246841.763138" miny="1309202.283550" maxx="8751677.366352" maxy="2029485.323070"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=93" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ ReserviourAnno ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.272633</westBoundLongitude>
+<eastBoundLongitude>78.440364</eastBoundLongitude>
+<southBoundLatitude>11.723768</southBoundLatitude>
+<northBoundLatitude>17.862796</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.272633" miny="11.723768" maxx="78.440364" maxy="17.862796"/>
+<BoundingBox CRS="EPSG:4326" minx="11.723768" miny="74.272633" maxx="17.862796" maxy="78.440364"/>
+<BoundingBox CRS="EPSG:3857" minx="8267991.704279" miny="1314287.431284" maxx="8731941.411369" maxy="2021495.344658"/>
+<BoundingBox CRS="EPSG:102100" minx="8267991.704279" miny="1314287.431284" maxx="8731941.411369" maxy="2021495.344658"/>
+<Layer>
+<Name>95</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.272633</westBoundLongitude>
+<eastBoundLongitude>78.440364</eastBoundLongitude>
+<southBoundLatitude>11.723768</southBoundLatitude>
+<northBoundLatitude>17.862796</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.272633" miny="11.723768" maxx="78.440364" maxy="17.862796"/>
+<BoundingBox CRS="EPSG:4326" minx="11.723768" miny="74.272633" maxx="17.862796" maxy="78.440364"/>
+<BoundingBox CRS="EPSG:3857" minx="8267991.704279" miny="1314287.431284" maxx="8731941.411369" maxy="2021495.344658"/>
+<BoundingBox CRS="EPSG:102100" minx="8267991.704279" miny="1314287.431284" maxx="8731941.411369" maxy="2021495.344658"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=95" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ SHAnno ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.164577</westBoundLongitude>
+<eastBoundLongitude>78.433330</eastBoundLongitude>
+<southBoundLatitude>11.893025</southBoundLatitude>
+<northBoundLatitude>18.324743</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.164577" miny="11.893025" maxx="78.433330" maxy="18.324743"/>
+<BoundingBox CRS="EPSG:4326" minx="11.893025" miny="74.164577" maxx="18.324743" maxy="78.433330"/>
+<BoundingBox CRS="EPSG:3857" minx="8255962.918086" miny="1333536.423884" maxx="8731158.386901" maxy="2075594.402496"/>
+<BoundingBox CRS="EPSG:102100" minx="8255962.918086" miny="1333536.423884" maxx="8731158.386901" maxy="2075594.402496"/>
+<Layer>
+<Name>97</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.164577</westBoundLongitude>
+<eastBoundLongitude>78.433330</eastBoundLongitude>
+<southBoundLatitude>11.893025</southBoundLatitude>
+<northBoundLatitude>18.324743</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.164577" miny="11.893025" maxx="78.433330" maxy="18.324743"/>
+<BoundingBox CRS="EPSG:4326" minx="11.893025" miny="74.164577" maxx="18.324743" maxy="78.433330"/>
+<BoundingBox CRS="EPSG:3857" minx="8255962.918086" miny="1333536.423884" maxx="8731158.386901" maxy="2075594.402496"/>
+<BoundingBox CRS="EPSG:102100" minx="8255962.918086" miny="1333536.423884" maxx="8731158.386901" maxy="2075594.402496"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=97" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level11 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.271060</westBoundLongitude>
+<eastBoundLongitude>78.530304</eastBoundLongitude>
+<southBoundLatitude>11.759651</southBoundLatitude>
+<northBoundLatitude>17.721176</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.271060" miny="11.759651" maxx="78.530304" maxy="17.721176"/>
+<BoundingBox CRS="EPSG:4326" minx="11.759651" miny="74.271060" maxx="17.721176" maxy="78.530304"/>
+<BoundingBox CRS="EPSG:3857" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<BoundingBox CRS="EPSG:102100" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<MinScaleDenominator>236236.063988</MinScaleDenominator>
+<MaxScaleDenominator>472470.238095</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NH_Anno4 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.271060</westBoundLongitude>
+<eastBoundLongitude>78.530304</eastBoundLongitude>
+<southBoundLatitude>11.759651</southBoundLatitude>
+<northBoundLatitude>17.721176</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.271060" miny="11.759651" maxx="78.530304" maxy="17.721176"/>
+<BoundingBox CRS="EPSG:4326" minx="11.759651" miny="74.271060" maxx="17.721176" maxy="78.530304"/>
+<BoundingBox CRS="EPSG:3857" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<BoundingBox CRS="EPSG:102100" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<Layer>
+<Name>100</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.271060</westBoundLongitude>
+<eastBoundLongitude>78.530304</eastBoundLongitude>
+<southBoundLatitude>11.759651</southBoundLatitude>
+<northBoundLatitude>17.721176</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.271060" miny="11.759651" maxx="78.530304" maxy="17.721176"/>
+<BoundingBox CRS="EPSG:4326" minx="11.759651" miny="74.271060" maxx="17.721176" maxy="78.530304"/>
+<BoundingBox CRS="EPSG:3857" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<BoundingBox CRS="EPSG:102100" minx="8267816.569107" miny="1318367.197764" maxx="8741953.412882" maxy="2004938.296076"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=100" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level10 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.253760</westBoundLongitude>
+<eastBoundLongitude>78.545202</eastBoundLongitude>
+<southBoundLatitude>11.716796</southBoundLatitude>
+<northBoundLatitude>17.959643</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.253760" miny="11.716796" maxx="78.545202" maxy="17.959643"/>
+<BoundingBox CRS="EPSG:4326" minx="11.716796" miny="74.253760" maxx="17.959643" maxy="78.545202"/>
+<BoundingBox CRS="EPSG:3857" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<BoundingBox CRS="EPSG:102100" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<MinScaleDenominator>472471.183036</MinScaleDenominator>
+<MaxScaleDenominator>708705.357143</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NH_Anno3 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.253760</westBoundLongitude>
+<eastBoundLongitude>78.545202</eastBoundLongitude>
+<southBoundLatitude>11.716796</southBoundLatitude>
+<northBoundLatitude>17.959643</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.253760" miny="11.716796" maxx="78.545202" maxy="17.959643"/>
+<BoundingBox CRS="EPSG:4326" minx="11.716796" miny="74.253760" maxx="17.959643" maxy="78.545202"/>
+<BoundingBox CRS="EPSG:3857" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<BoundingBox CRS="EPSG:102100" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<Layer>
+<Name>103</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.253760</westBoundLongitude>
+<eastBoundLongitude>78.545202</eastBoundLongitude>
+<southBoundLatitude>11.716796</southBoundLatitude>
+<northBoundLatitude>17.959643</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.253760" miny="11.716796" maxx="78.545202" maxy="17.959643"/>
+<BoundingBox CRS="EPSG:4326" minx="11.716796" miny="74.253760" maxx="17.959643" maxy="78.545202"/>
+<BoundingBox CRS="EPSG:3857" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<BoundingBox CRS="EPSG:102100" minx="8265890.711789" miny="1313494.702668" maxx="8743611.899092" maxy="2032825.384880"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=103" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level9 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056101</westBoundLongitude>
+<eastBoundLongitude>120.056730</eastBoundLongitude>
+<southBoundLatitude>-29.416557</southBoundLatitude>
+<northBoundLatitude>83.999266</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056101" miny="-29.416557" maxx="120.056730" maxy="83.999266"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.416557" miny="30.056101" maxx="83.999266" maxy="120.056730"/>
+<BoundingBox CRS="EPSG:3857" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<BoundingBox CRS="EPSG:102100" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<MinScaleDenominator>708706.302083</MinScaleDenominator>
+<MaxScaleDenominator>944940.476190</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel9 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056101</westBoundLongitude>
+<eastBoundLongitude>120.056730</eastBoundLongitude>
+<southBoundLatitude>-29.416557</southBoundLatitude>
+<northBoundLatitude>83.999266</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056101" miny="-29.416557" maxx="120.056730" maxy="83.999266"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.416557" miny="30.056101" maxx="83.999266" maxy="120.056730"/>
+<BoundingBox CRS="EPSG:3857" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<BoundingBox CRS="EPSG:102100" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<Layer>
+<Name>106</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056101</westBoundLongitude>
+<eastBoundLongitude>120.056730</eastBoundLongitude>
+<southBoundLatitude>-29.416557</southBoundLatitude>
+<northBoundLatitude>83.999266</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056101" miny="-29.416557" maxx="120.056730" maxy="83.999266"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.416557" miny="30.056101" maxx="83.999266" maxy="120.056730"/>
+<BoundingBox CRS="EPSG:3857" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<BoundingBox CRS="EPSG:102100" minx="3345829.849757" miny="-3428772.003392" maxx="13364654.099999" maxy="18806432.590818"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=106" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel9 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.917577</westBoundLongitude>
+<eastBoundLongitude>96.589537</eastBoundLongitude>
+<southBoundLatitude>10.256797</southBoundLatitude>
+<northBoundLatitude>34.667017</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.917577" miny="10.256797" maxx="96.589537" maxy="34.667017"/>
+<BoundingBox CRS="EPSG:4326" minx="10.256797" miny="71.917577" maxx="34.667017" maxy="96.589537"/>
+<BoundingBox CRS="EPSG:3857" minx="8005828.070641" miny="1147929.057472" maxx="10752298.031428" maxy="4118721.601573"/>
+<BoundingBox CRS="EPSG:102100" minx="8005828.070641" miny="1147929.057472" maxx="10752298.031428" maxy="4118721.601573"/>
+<Layer>
+<Name>108</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.917577</westBoundLongitude>
+<eastBoundLongitude>96.589537</eastBoundLongitude>
+<southBoundLatitude>10.256797</southBoundLatitude>
+<northBoundLatitude>34.667017</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.917577" miny="10.256797" maxx="96.589537" maxy="34.667017"/>
+<BoundingBox CRS="EPSG:4326" minx="10.256797" miny="71.917577" maxx="34.667017" maxy="96.589537"/>
+<BoundingBox CRS="EPSG:3857" minx="8005828.070641" miny="1147929.057472" maxx="10752298.031428" maxy="4118721.601573"/>
+<BoundingBox CRS="EPSG:102100" minx="8005828.070641" miny="1147929.057472" maxx="10752298.031428" maxy="4118721.601573"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=108" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NH_Anno2 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.127191</westBoundLongitude>
+<eastBoundLongitude>78.554857</eastBoundLongitude>
+<southBoundLatitude>11.706951</southBoundLatitude>
+<northBoundLatitude>17.947011</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.127191" miny="11.706951" maxx="78.554857" maxy="17.947011"/>
+<BoundingBox CRS="EPSG:4326" minx="11.706951" miny="74.127191" maxx="17.947011" maxy="78.554857"/>
+<BoundingBox CRS="EPSG:3857" minx="8251801.129158" miny="1312375.550961" maxx="8744686.657522" maxy="2031347.247188"/>
+<BoundingBox CRS="EPSG:102100" minx="8251801.129158" miny="1312375.550961" maxx="8744686.657522" maxy="2031347.247188"/>
+<Layer>
+<Name>110</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.127191</westBoundLongitude>
+<eastBoundLongitude>78.554857</eastBoundLongitude>
+<southBoundLatitude>11.706951</southBoundLatitude>
+<northBoundLatitude>17.947011</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.127191" miny="11.706951" maxx="78.554857" maxy="17.947011"/>
+<BoundingBox CRS="EPSG:4326" minx="11.706951" miny="74.127191" maxx="17.947011" maxy="78.554857"/>
+<BoundingBox CRS="EPSG:3857" minx="8251801.129158" miny="1312375.550961" maxx="8744686.657522" maxy="2031347.247188"/>
+<BoundingBox CRS="EPSG:102100" minx="8251801.129158" miny="1312375.550961" maxx="8744686.657522" maxy="2031347.247188"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=110" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level8 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056048</westBoundLongitude>
+<eastBoundLongitude>120.113849</eastBoundLongitude>
+<southBoundLatitude>-29.446813</southBoundLatitude>
+<northBoundLatitude>84.015091</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056048" miny="-29.446813" maxx="120.113849" maxy="84.015091"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.446813" miny="30.056048" maxx="84.015091" maxy="120.113849"/>
+<BoundingBox CRS="EPSG:3857" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<BoundingBox CRS="EPSG:102100" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<MinScaleDenominator>944941.421131</MinScaleDenominator>
+<MaxScaleDenominator>1889880.952381</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel8 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056048</westBoundLongitude>
+<eastBoundLongitude>120.113849</eastBoundLongitude>
+<southBoundLatitude>-29.446813</southBoundLatitude>
+<northBoundLatitude>84.015091</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056048" miny="-29.446813" maxx="120.113849" maxy="84.015091"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.446813" miny="30.056048" maxx="84.015091" maxy="120.113849"/>
+<BoundingBox CRS="EPSG:3857" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<BoundingBox CRS="EPSG:102100" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<Layer>
+<Name>113</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056048</westBoundLongitude>
+<eastBoundLongitude>120.113849</eastBoundLongitude>
+<southBoundLatitude>-29.446813</southBoundLatitude>
+<northBoundLatitude>84.015091</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056048" miny="-29.446813" maxx="120.113849" maxy="84.015091"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.446813" miny="30.056048" maxx="84.015091" maxy="120.113849"/>
+<BoundingBox CRS="EPSG:3857" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<BoundingBox CRS="EPSG:102100" minx="3345824.001699" miny="-3432639.150524" maxx="13371012.545526" maxy="18823306.123837"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=113" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel8 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.815363</westBoundLongitude>
+<eastBoundLongitude>96.819317</eastBoundLongitude>
+<southBoundLatitude>10.227894</southBoundLatitude>
+<northBoundLatitude>34.687863</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.815363" miny="10.227894" maxx="96.819317" maxy="34.687863"/>
+<BoundingBox CRS="EPSG:4326" minx="10.227894" miny="71.815363" maxx="34.687863" maxy="96.819317"/>
+<BoundingBox CRS="EPSG:3857" minx="7994449.630717" miny="1144659.514263" maxx="10777877.095238" maxy="4121543.465315"/>
+<BoundingBox CRS="EPSG:102100" minx="7994449.630717" miny="1144659.514263" maxx="10777877.095238" maxy="4121543.465315"/>
+<Layer>
+<Name>115</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.815363</westBoundLongitude>
+<eastBoundLongitude>96.819317</eastBoundLongitude>
+<southBoundLatitude>10.227894</southBoundLatitude>
+<northBoundLatitude>34.687863</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.815363" miny="10.227894" maxx="96.819317" maxy="34.687863"/>
+<BoundingBox CRS="EPSG:4326" minx="10.227894" miny="71.815363" maxx="34.687863" maxy="96.819317"/>
+<BoundingBox CRS="EPSG:3857" minx="7994449.630717" miny="1144659.514263" maxx="10777877.095238" maxy="4121543.465315"/>
+<BoundingBox CRS="EPSG:102100" minx="7994449.630717" miny="1144659.514263" maxx="10777877.095238" maxy="4121543.465315"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=115" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ NH_Anno ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.227990</westBoundLongitude>
+<eastBoundLongitude>78.594204</eastBoundLongitude>
+<southBoundLatitude>11.569169</southBoundLatitude>
+<northBoundLatitude>17.873518</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.227990" miny="11.569169" maxx="78.594204" maxy="17.873518"/>
+<BoundingBox CRS="EPSG:4326" minx="11.569169" miny="74.227990" maxx="17.873518" maxy="78.594204"/>
+<BoundingBox CRS="EPSG:3857" minx="8263022.084696" miny="1296715.745402" maxx="8749066.812976" maxy="2022749.317972"/>
+<BoundingBox CRS="EPSG:102100" minx="8263022.084696" miny="1296715.745402" maxx="8749066.812976" maxy="2022749.317972"/>
+<Layer>
+<Name>117</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>74.227990</westBoundLongitude>
+<eastBoundLongitude>78.594204</eastBoundLongitude>
+<southBoundLatitude>11.569169</southBoundLatitude>
+<northBoundLatitude>17.873518</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="74.227990" miny="11.569169" maxx="78.594204" maxy="17.873518"/>
+<BoundingBox CRS="EPSG:4326" minx="11.569169" miny="74.227990" maxx="17.873518" maxy="78.594204"/>
+<BoundingBox CRS="EPSG:3857" minx="8263022.084696" miny="1296715.745402" maxx="8749066.812976" maxy="2022749.317972"/>
+<BoundingBox CRS="EPSG:102100" minx="8263022.084696" miny="1296715.745402" maxx="8749066.812976" maxy="2022749.317972"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=117" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level7 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056594</westBoundLongitude>
+<eastBoundLongitude>120.227835</eastBoundLongitude>
+<southBoundLatitude>-29.507016</southBoundLatitude>
+<northBoundLatitude>84.039870</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056594" miny="-29.507016" maxx="120.227835" maxy="84.039870"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.507016" miny="30.056594" maxx="84.039870" maxy="120.227835"/>
+<BoundingBox CRS="EPSG:3857" minx="3345884.722474" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<BoundingBox CRS="EPSG:102100" minx="3345884.722474" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<MinScaleDenominator>1889881.897321</MinScaleDenominator>
+<MaxScaleDenominator>3779761.904762</MaxScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel7_30 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056594</westBoundLongitude>
+<eastBoundLongitude>120.170874</eastBoundLongitude>
+<southBoundLatitude>-29.476966</southBoundLatitude>
+<northBoundLatitude>84.028616</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056594" miny="-29.476966" maxx="120.170874" maxy="84.028616"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.476966" miny="30.056594" maxx="84.028616" maxy="120.170874"/>
+<BoundingBox CRS="EPSG:3857" minx="3345884.722474" miny="-3436494.306587" maxx="13377360.464125" maxy="18837761.331850"/>
+<BoundingBox CRS="EPSG:102100" minx="3345884.722474" miny="-3436494.306587" maxx="13377360.464125" maxy="18837761.331850"/>
+<MaxScaleDenominator>2834822.373512</MaxScaleDenominator>
+<Layer>
+<Name>120</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.056594</westBoundLongitude>
+<eastBoundLongitude>120.170874</eastBoundLongitude>
+<southBoundLatitude>-29.476966</southBoundLatitude>
+<northBoundLatitude>84.028616</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.056594" miny="-29.476966" maxx="120.170874" maxy="84.028616"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.476966" miny="30.056594" maxx="84.028616" maxy="120.170874"/>
+<BoundingBox CRS="EPSG:3857" minx="3345884.722474" miny="-3436494.306587" maxx="13377360.464125" maxy="18837761.331850"/>
+<BoundingBox CRS="EPSG:102100" minx="3345884.722474" miny="-3436494.306587" maxx="13377360.464125" maxy="18837761.331850"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=120" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel7_30 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.795427</westBoundLongitude>
+<eastBoundLongitude>96.873152</eastBoundLongitude>
+<southBoundLatitude>10.219280</southBoundLatitude>
+<northBoundLatitude>34.688820</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.795427" miny="10.219280" maxx="96.873152" maxy="34.688820"/>
+<BoundingBox CRS="EPSG:4326" minx="10.219280" miny="71.795427" maxx="34.688820" maxy="96.873152"/>
+<BoundingBox CRS="EPSG:3857" minx="7992230.362633" miny="1143685.050297" maxx="10783869.945051" maxy="4121673.010189"/>
+<BoundingBox CRS="EPSG:102100" minx="7992230.362633" miny="1143685.050297" maxx="10783869.945051" maxy="4121673.010189"/>
+<MaxScaleDenominator>2834822.373512</MaxScaleDenominator>
+<Layer>
+<Name>122</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.795427</westBoundLongitude>
+<eastBoundLongitude>96.873152</eastBoundLongitude>
+<southBoundLatitude>10.219280</southBoundLatitude>
+<northBoundLatitude>34.688820</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.795427" miny="10.219280" maxx="96.873152" maxy="34.688820"/>
+<BoundingBox CRS="EPSG:4326" minx="10.219280" miny="71.795427" maxx="34.688820" maxy="96.873152"/>
+<BoundingBox CRS="EPSG:3857" minx="7992230.362633" miny="1143685.050297" maxx="10783869.945051" maxy="4121673.010189"/>
+<BoundingBox CRS="EPSG:102100" minx="7992230.362633" miny="1143685.050297" maxx="10783869.945051" maxy="4121673.010189"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=122" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>2362351.190476</MinScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel7_40 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.057740</westBoundLongitude>
+<eastBoundLongitude>120.227835</eastBoundLongitude>
+<southBoundLatitude>-29.507016</southBoundLatitude>
+<northBoundLatitude>84.039870</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.057740" miny="-29.507016" maxx="120.227835" maxy="84.039870"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.507016" miny="30.057740" maxx="84.039870" maxy="120.227835"/>
+<BoundingBox CRS="EPSG:3857" minx="3346012.270676" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<BoundingBox CRS="EPSG:102100" minx="3346012.270676" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<MinScaleDenominator>2834822.373512</MinScaleDenominator>
+<Layer>
+<Name>124</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.057740</westBoundLongitude>
+<eastBoundLongitude>120.227835</eastBoundLongitude>
+<southBoundLatitude>-29.507016</southBoundLatitude>
+<northBoundLatitude>84.039870</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.057740" miny="-29.507016" maxx="120.227835" maxy="84.039870"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.507016" miny="30.057740" maxx="84.039870" maxy="120.227835"/>
+<BoundingBox CRS="EPSG:3857" minx="3346012.270676" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<BoundingBox CRS="EPSG:102100" minx="3346012.270676" miny="-3440337.421572" maxx="13383701.390747" maxy="18849815.743633"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=124" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel7_40 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.725359</westBoundLongitude>
+<eastBoundLongitude>97.055935</eastBoundLongitude>
+<southBoundLatitude>10.196468</southBoundLatitude>
+<northBoundLatitude>34.703036</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.725359" miny="10.196468" maxx="97.055935" maxy="34.703036"/>
+<BoundingBox CRS="EPSG:4326" minx="10.196468" miny="71.725359" maxx="34.703036" maxy="97.055935"/>
+<BoundingBox CRS="EPSG:3857" minx="7984430.438671" miny="1141104.864258" maxx="10804217.302697" maxy="4123597.852711"/>
+<BoundingBox CRS="EPSG:102100" minx="7984430.438671" miny="1141104.864258" maxx="10804217.302697" maxy="4123597.852711"/>
+<MinScaleDenominator>2834822.373512</MinScaleDenominator>
+<Layer>
+<Name>126</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.725359</westBoundLongitude>
+<eastBoundLongitude>97.055935</eastBoundLongitude>
+<southBoundLatitude>10.196468</southBoundLatitude>
+<northBoundLatitude>34.703036</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.725359" miny="10.196468" maxx="97.055935" maxy="34.703036"/>
+<BoundingBox CRS="EPSG:4326" minx="10.196468" miny="71.725359" maxx="34.703036" maxy="97.055935"/>
+<BoundingBox CRS="EPSG:3857" minx="7984430.438671" miny="1141104.864258" maxx="10804217.302697" maxy="4123597.852711"/>
+<BoundingBox CRS="EPSG:102100" minx="7984430.438671" miny="1141104.864258" maxx="10804217.302697" maxy="4123597.852711"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=126" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>2362351.190476</MinScaleDenominator>
+</Layer>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ Level6 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>29.097511</westBoundLongitude>
+<eastBoundLongitude>121.130538</eastBoundLongitude>
+<southBoundLatitude>-76.568153</southBoundLatitude>
+<northBoundLatitude>84.062893</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="29.097511" miny="-76.568153" maxx="121.130538" maxy="84.062893"/>
+<BoundingBox CRS="EPSG:4326" minx="-76.568153" miny="29.097511" maxx="84.062893" maxy="121.130538"/>
+<BoundingBox CRS="EPSG:3857" minx="3239120.091781" miny="-13643798.661788" maxx="13484189.775723" maxy="18874545.775026"/>
+<BoundingBox CRS="EPSG:102100" minx="3239120.091781" miny="-13643798.661788" maxx="13484189.775723" maxy="18874545.775026"/>
+<MinScaleDenominator>3779762.849702</MinScaleDenominator>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel6_80 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.405805</westBoundLongitude>
+<eastBoundLongitude>97.780609</eastBoundLongitude>
+<southBoundLatitude>10.105024</southBoundLatitude>
+<northBoundLatitude>34.759902</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.405805" miny="10.105024" maxx="97.780609" maxy="34.759902"/>
+<BoundingBox CRS="EPSG:4326" minx="10.105024" miny="71.405805" maxx="34.759902" maxy="97.780609"/>
+<BoundingBox CRS="EPSG:3857" minx="7948857.814966" miny="1130763.469564" maxx="10884887.630316" maxy="4131300.487295"/>
+<BoundingBox CRS="EPSG:102100" minx="7948857.814966" miny="1130763.469564" maxx="10884887.630316" maxy="4131300.487295"/>
+<MinScaleDenominator>3779762.849702</MinScaleDenominator>
+<MaxScaleDenominator>7559523.809524</MaxScaleDenominator>
+<Layer>
+<Name>129</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.405805</westBoundLongitude>
+<eastBoundLongitude>97.780609</eastBoundLongitude>
+<southBoundLatitude>10.105024</southBoundLatitude>
+<northBoundLatitude>34.759902</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.405805" miny="10.105024" maxx="97.780609" maxy="34.759902"/>
+<BoundingBox CRS="EPSG:4326" minx="10.105024" miny="71.405805" maxx="34.759902" maxy="97.780609"/>
+<BoundingBox CRS="EPSG:3857" minx="7948857.814966" miny="1130763.469564" maxx="10884887.630316" maxy="4131300.487295"/>
+<BoundingBox CRS="EPSG:102100" minx="7948857.814966" miny="1130763.469564" maxx="10884887.630316" maxy="4131300.487295"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=129" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>2362351.190476</MinScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel6_80 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.068478</westBoundLongitude>
+<eastBoundLongitude>120.455052</eastBoundLongitude>
+<southBoundLatitude>-29.626156</southBoundLatitude>
+<northBoundLatitude>84.062893</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.068478" miny="-29.626156" maxx="120.455052" maxy="84.062893"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.626156" miny="30.068478" maxx="84.062893" maxy="120.455052"/>
+<BoundingBox CRS="EPSG:3857" minx="3347207.626493" miny="-3455585.626595" maxx="13408995.051004" maxy="18874545.775026"/>
+<BoundingBox CRS="EPSG:102100" minx="3347207.626493" miny="-3455585.626595" maxx="13408995.051004" maxy="18874545.775026"/>
+<MinScaleDenominator>4724703.325893</MinScaleDenominator>
+<MaxScaleDenominator>7559523.809524</MaxScaleDenominator>
+<Layer>
+<Name>131</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.068478</westBoundLongitude>
+<eastBoundLongitude>120.455052</eastBoundLongitude>
+<southBoundLatitude>-29.626156</southBoundLatitude>
+<northBoundLatitude>84.062893</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.068478" miny="-29.626156" maxx="120.455052" maxy="84.062893"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.626156" miny="30.068478" maxx="84.062893" maxy="120.455052"/>
+<BoundingBox CRS="EPSG:3857" minx="3347207.626493" miny="-3455585.626595" maxx="13408995.051004" maxy="18874545.775026"/>
+<BoundingBox CRS="EPSG:102100" minx="3347207.626493" miny="-3455585.626595" maxx="13408995.051004" maxy="18874545.775026"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=131" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ WorldAnnoLevel6_125 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>29.182776</westBoundLongitude>
+<eastBoundLongitude>119.723683</eastBoundLongitude>
+<southBoundLatitude>-76.548609</southBoundLatitude>
+<northBoundLatitude>70.678614</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="29.182776" miny="-76.548609" maxx="119.723683" maxy="70.678614"/>
+<BoundingBox CRS="EPSG:4326" minx="-76.548609" miny="29.182776" maxx="70.678614" maxy="119.723683"/>
+<BoundingBox CRS="EPSG:3857" minx="3248611.804066" miny="-13634439.327733" maxx="13327579.448572" maxy="11293267.619434"/>
+<BoundingBox CRS="EPSG:102100" minx="3248611.804066" miny="-13634439.327733" maxx="13327579.448572" maxy="11293267.619434"/>
+<MinScaleDenominator>7559524.754464</MinScaleDenominator>
+<MaxScaleDenominator>11811755.952381</MaxScaleDenominator>
+<Layer>
+<Name>133</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>29.182776</westBoundLongitude>
+<eastBoundLongitude>119.723683</eastBoundLongitude>
+<southBoundLatitude>-76.548609</southBoundLatitude>
+<northBoundLatitude>70.678614</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="29.182776" miny="-76.548609" maxx="119.723683" maxy="70.678614"/>
+<BoundingBox CRS="EPSG:4326" minx="-76.548609" miny="29.182776" maxx="70.678614" maxy="119.723683"/>
+<BoundingBox CRS="EPSG:3857" minx="3248611.804066" miny="-13634439.327733" maxx="13327579.448572" maxy="11293267.619434"/>
+<BoundingBox CRS="EPSG:102100" minx="3248611.804066" miny="-13634439.327733" maxx="13327579.448572" maxy="11293267.619434"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=133" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>7559524.754464</MinScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel6_125 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.092282</westBoundLongitude>
+<eastBoundLongitude>120.709464</eastBoundLongitude>
+<southBoundLatitude>-29.758171</southBoundLatitude>
+<northBoundLatitude>84.049015</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.092282" miny="-29.758171" maxx="120.709464" maxy="84.049015"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.758171" miny="30.092282" maxx="84.049015" maxy="120.709464"/>
+<BoundingBox CRS="EPSG:3857" minx="3349857.462071" miny="-3472502.721721" maxx="13437316.081214" maxy="18859627.281442"/>
+<BoundingBox CRS="EPSG:102100" minx="3349857.462071" miny="-3472502.721721" maxx="13437316.081214" maxy="18859627.281442"/>
+<MinScaleDenominator>7559524.754464</MinScaleDenominator>
+<MaxScaleDenominator>11811755.952381</MaxScaleDenominator>
+<Layer>
+<Name>135</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.092282</westBoundLongitude>
+<eastBoundLongitude>120.709464</eastBoundLongitude>
+<southBoundLatitude>-29.758171</southBoundLatitude>
+<northBoundLatitude>84.049015</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.092282" miny="-29.758171" maxx="120.709464" maxy="84.049015"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.758171" miny="30.092282" maxx="84.049015" maxy="120.709464"/>
+<BoundingBox CRS="EPSG:3857" minx="3349857.462071" miny="-3472502.721721" maxx="13437316.081214" maxy="18859627.281442"/>
+<BoundingBox CRS="EPSG:102100" minx="3349857.462071" miny="-3472502.721721" maxx="13437316.081214" maxy="18859627.281442"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=135" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel6_125 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.014158</westBoundLongitude>
+<eastBoundLongitude>98.067702</eastBoundLongitude>
+<southBoundLatitude>9.793348</southBoundLatitude>
+<northBoundLatitude>34.823875</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.014158" miny="9.793348" maxx="98.067702" maxy="34.823875"/>
+<BoundingBox CRS="EPSG:4326" minx="9.793348" miny="71.014158" maxx="34.823875" maxy="98.067702"/>
+<BoundingBox CRS="EPSG:3857" minx="7905259.924420" miny="1095538.019704" maxx="10916846.614410" maxy="4139972.209390"/>
+<BoundingBox CRS="EPSG:102100" minx="7905259.924420" miny="1095538.019704" maxx="10916846.614410" maxy="4139972.209390"/>
+<MinScaleDenominator>7559524.754464</MinScaleDenominator>
+<MaxScaleDenominator>11811755.952381</MaxScaleDenominator>
+<Layer>
+<Name>137</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>71.014158</westBoundLongitude>
+<eastBoundLongitude>98.067702</eastBoundLongitude>
+<southBoundLatitude>9.793348</southBoundLatitude>
+<northBoundLatitude>34.823875</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="71.014158" miny="9.793348" maxx="98.067702" maxy="34.823875"/>
+<BoundingBox CRS="EPSG:4326" minx="9.793348" miny="71.014158" maxx="34.823875" maxy="98.067702"/>
+<BoundingBox CRS="EPSG:3857" minx="7905259.924420" miny="1095538.019704" maxx="10916846.614410" maxy="4139972.209390"/>
+<BoundingBox CRS="EPSG:102100" minx="7905259.924420" miny="1095538.019704" maxx="10916846.614410" maxy="4139972.209390"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=137" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>2362351.190476</MinScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ OceanAnnoLevel6_200 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.160082</westBoundLongitude>
+<eastBoundLongitude>121.130538</eastBoundLongitude>
+<southBoundLatitude>-29.973468</southBoundLatitude>
+<northBoundLatitude>83.943192</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.160082" miny="-29.973468" maxx="121.130538" maxy="83.943192"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.973468" miny="30.160082" maxx="83.943192" maxy="121.130538"/>
+<BoundingBox CRS="EPSG:3857" minx="3357404.954159" miny="-3500139.888312" maxx="13484189.775723" maxy="18746998.421717"/>
+<BoundingBox CRS="EPSG:102100" minx="3357404.954159" miny="-3500139.888312" maxx="13484189.775723" maxy="18746998.421717"/>
+<MinScaleDenominator>11811756.897321</MinScaleDenominator>
+<Layer>
+<Name>139</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>30.160082</westBoundLongitude>
+<eastBoundLongitude>121.130538</eastBoundLongitude>
+<southBoundLatitude>-29.973468</southBoundLatitude>
+<northBoundLatitude>83.943192</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="30.160082" miny="-29.973468" maxx="121.130538" maxy="83.943192"/>
+<BoundingBox CRS="EPSG:4326" minx="-29.973468" miny="30.160082" maxx="83.943192" maxy="121.130538"/>
+<BoundingBox CRS="EPSG:3857" minx="3357404.954159" miny="-3500139.888312" maxx="13484189.775723" maxy="18746998.421717"/>
+<BoundingBox CRS="EPSG:102100" minx="3357404.954159" miny="-3500139.888312" maxx="13484189.775723" maxy="18746998.421717"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=139" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ WorldAnnoLevel6_200 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>29.097511</westBoundLongitude>
+<eastBoundLongitude>119.959828</eastBoundLongitude>
+<southBoundLatitude>-76.568153</southBoundLatitude>
+<northBoundLatitude>70.788978</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="29.097511" miny="-76.568153" maxx="119.959828" maxy="70.788978"/>
+<BoundingBox CRS="EPSG:4326" minx="-76.568153" miny="29.097511" maxx="70.788978" maxy="119.959828"/>
+<BoundingBox CRS="EPSG:3857" minx="3239120.091781" miny="-13643798.661788" maxx="13353867.020794" maxy="11330501.663929"/>
+<BoundingBox CRS="EPSG:102100" minx="3239120.091781" miny="-13643798.661788" maxx="13353867.020794" maxy="11330501.663929"/>
+<MinScaleDenominator>11811756.897321</MinScaleDenominator>
+<Layer>
+<Name>141</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>29.097511</westBoundLongitude>
+<eastBoundLongitude>119.959828</eastBoundLongitude>
+<southBoundLatitude>-76.568153</southBoundLatitude>
+<northBoundLatitude>70.788978</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="29.097511" miny="-76.568153" maxx="119.959828" maxy="70.788978"/>
+<BoundingBox CRS="EPSG:4326" minx="-76.568153" miny="29.097511" maxx="70.788978" maxy="119.959828"/>
+<BoundingBox CRS="EPSG:3857" minx="3239120.091781" miny="-13643798.661788" maxx="13353867.020794" maxy="11330501.663929"/>
+<BoundingBox CRS="EPSG:102100" minx="3239120.091781" miny="-13643798.661788" maxx="13353867.020794" maxy="11330501.663929"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=141" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>7559524.754464</MinScaleDenominator>
+</Layer>
+</Layer>
+<Layer queryable="1">
+<Title>
+<![CDATA[ CountryAnnoLevel6_150 ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>70.699813</westBoundLongitude>
+<eastBoundLongitude>98.508688</eastBoundLongitude>
+<southBoundLatitude>9.736891</southBoundLatitude>
+<northBoundLatitude>34.859416</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="70.699813" miny="9.736891" maxx="98.508688" maxy="34.859416"/>
+<BoundingBox CRS="EPSG:4326" minx="9.736891" miny="70.699813" maxx="34.859416" maxy="98.508688"/>
+<BoundingBox CRS="EPSG:3857" minx="7870267.152353" miny="1089160.863605" maxx="10965936.949584" maxy="4144792.703292"/>
+<BoundingBox CRS="EPSG:102100" minx="7870267.152353" miny="1089160.863605" maxx="10965936.949584" maxy="4144792.703292"/>
+<MinScaleDenominator>11811756.897321</MinScaleDenominator>
+<MaxScaleDenominator>14174107.142857</MaxScaleDenominator>
+<Layer>
+<Name>143</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<Abstract>
+<![CDATA[ ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>70.699813</westBoundLongitude>
+<eastBoundLongitude>98.508688</eastBoundLongitude>
+<southBoundLatitude>9.736891</southBoundLatitude>
+<northBoundLatitude>34.859416</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="70.699813" miny="9.736891" maxx="98.508688" maxy="34.859416"/>
+<BoundingBox CRS="EPSG:4326" minx="9.736891" miny="70.699813" maxx="34.859416" maxy="98.508688"/>
+<BoundingBox CRS="EPSG:3857" minx="7870267.152353" miny="1089160.863605" maxx="10965936.949584" maxy="4144792.703292"/>
+<BoundingBox CRS="EPSG:102100" minx="7870267.152353" miny="1089160.863605" maxx="10965936.949584" maxy="4144792.703292"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ Default ]]>
+</Title>
+<LegendURL width="0" height="0">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://164.100.133.66/arcgis/services/State_Basemap/State_Basemap_Cached/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=143" xlink:type="simple"/>
+</LegendURL>
+</Style>
+<MinScaleDenominator>2362351.190476</MinScaleDenominator>
+</Layer>
+</Layer>
+</Layer>
+</Layer>
+</Capability>
+</WMS_Capabilities>

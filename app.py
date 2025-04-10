@@ -1,0 +1,168 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.figure_factory as ff
+import plotly.graph_objects as go
+import preprocessor
+import helper
+import os,sys
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+df = pd.read_csv(resource_path('athlete_events.csv'))
+region_df = pd.read_csv(resource_path('noc_regions.csv'))
+
+df=preprocessor.preprocess(df,region_df)
+
+st.sidebar.title("Olymics Analysis")
+st.sidebar.image("olympic-logo.png", caption="Olympic Image", use_column_width=True)
+user_menu=st.sidebar.radio(
+    'Select an Option',('Medal Tally','Overall Analysis','Country_wise Performance','Athelete Wise Analysis')
+)
+
+
+
+if user_menu=='Medal Tally':
+    
+    st.sidebar.header("Medal Tally")
+    years,country=helper.country_years_list(df)
+
+    selected_year=st.sidebar.selectbox("Select Year",years)
+    selected_conutry=st.sidebar.selectbox("Select Country",country)
+
+    medal_tally=helper.fetch_medal_tally(df,selected_year,selected_conutry)
+    if selected_year=='Overall' and selected_conutry=='Overall':
+        st.title("Overall Tally")
+    if selected_year!='Overall' and selected_conutry=='Overall':
+        st.title("Medal Tally in "+ str(selected_year)+" Olympics")
+    if selected_year=='Overall' and selected_conutry!='Overall':
+        st.title("Overall Medal Tally of "+ selected_conutry)
+    if selected_year!='Overall' and selected_conutry!='Overall':
+        st.title("Medal Tally of "+ selected_conutry+" in "+ str(selected_year))
+    st.table(medal_tally)
+
+if user_menu=='Overall Analysis':
+    editions =df['Year'].unique().shape[0]-1
+    cities =df['City'].unique().shape[0]
+    sports =df['Sport'].unique().shape[0]
+    events =df['Event'].unique().shape[0]
+    athletes =df['Name'].unique().shape[0]
+    nations =df['region'].unique().shape[0]
+
+    st.title("Top Statistics")
+
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.header("Editions")
+        st.title(editions)
+    with col2:
+        st.header("Hosts")
+        st.title(cities)
+    with col3:
+        st.header("Sports")
+        st.title(sports)
+
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.header("Events")
+        st.title(events)
+    with col2:
+        st.header("Regions")
+        st.title(nations)
+    with col3:
+        st.header("Athlete")
+        st.title(athletes)
+    
+    nations_over_time=helper.participating_nations_over_time(df)
+    fig1 =px.line(nations_over_time,x="Edition",y="No Of Countries")
+    st.title("Participating nation over Year")
+    st.plotly_chart(fig1)
+
+    games_over_time=helper.games_over_time(df)
+    fig2 =px.line(games_over_time,x="Edition",y="No Of Games")
+    st.title("No of Games over Years")
+    st.plotly_chart(fig2)
+
+    athelete_over_time=helper.athelete_over_time(df)
+    fig2 =px.line(athelete_over_time,x="Edition",y="No Of Atheletes")
+    st.title("No of Atheletes participated over Years")
+    st.plotly_chart(fig2)
+
+    st.title("No of Events Over time")
+    fig,ax=plt.subplots(figsize=(20,20))
+    x=df.drop_duplicates(['Year','Sport','Event'])
+    ax=sns.heatmap(x.pivot_table(index='Sport',columns='Year',values='Event',aggfunc='count').fillna(0).astype('int'),annot=True)
+    st.pyplot(fig)
+#     plt.figure(figsize=(25,25))      //.
+# sns.heatmap(x.pivot_table(index='Sport',columns='Year',values='Event',aggfunc='count').fillno(0).astype('int'),annot=True)
+    
+    #to add most sucessfull atheletes
+
+
+
+if user_menu=='Country_wise Performance':
+
+    st.sidebar.title('Country-wise Analysis')
+
+    country_list=df['region'].dropna().unique().tolist()
+    country_list.sort()
+
+    selected_conutry=st.sidebar.selectbox('Select a country',country_list)
+
+    country_df=helper.yearwise_medal_tally(df,selected_conutry)
+    fig =px.line(country_df,x="Year",y="Medal")
+    st.title(selected_conutry+"'s medal tally over Years")
+    st.plotly_chart(fig)
+
+    st.title(selected_conutry+" excels in the following sports: ")
+    pt=helper.country_event_heatmap(df,selected_conutry)
+    fig,ax=plt.subplots(figsize=(20,20))
+    ax=sns.heatmap(pt,annot=True)
+    st.pyplot(fig)
+    
+    st.title("Top 10 Atheletes of "+selected_conutry)
+    top10_df=helper.most_sucessful_athelete(df,selected_conutry)
+    st.table(top10_df)
+
+
+
+if user_menu=='Athelete Wise Analysis':
+    st.title('Distribution of age ')
+    athelete_df=df
+    athelete_df['Age'].dropna()
+    x1=athelete_df['Age'].dropna()
+    x2=athelete_df[athelete_df['Medal']=='Gold']['Age'].dropna()
+    x3=athelete_df[athelete_df['Medal']=='Silver']['Age'].dropna()
+    x4=athelete_df[athelete_df['Medal']=='Bronze']['Age'].dropna()
+    fig = ff.create_distplot([x1,x2,x3,x4],['Overall Age','Gold Medalist','Silver Medalist','Bronze Medalist'],show_hist=False,show_rug=False)
+    fig.update_layout(autosize=False,width=800,height=500)
+    st.plotly_chart(fig)
+    famous_sports = df['Sport'].unique().tolist()
+    # famous_sports = ['Basketball', 'Judo', 'Football', 'Tug-Of-War', 'Athletics', 'Swimming', 'Badminton', 'Sailing', 'Gymnastics', 'Art Competitions', 'Handball', 'Weightlifting', 'Wrestling', 'Water Polo', 'Hockey', 'Rowing', 'Fencing', 'Equestrianism', 'Shooting', 'Boxing', 'Taekwondo', 'Cycling', 'Diving', 'Canoeing', 'Tennis', 'Modern Pentathlon', 'Golf', 'Softball', 'Archery', 'Volleyball', 'Synchronized Swimming', 'Table Tennis', 'Baseball', 'Rhythmic Gymnastics', 'Rugby Sevens', 'Trampolining', 'Beach Volleyball', 'Triathlon', 'Rugby', 'Lacrosse', 'Polo', 'Cricket', 'Ice Hockey', 'Racquets', 'Motorboating', 'Croquet', 'Figure Skating', 'Jeu De Paume', 'Roque', 'Basque Pelota', 'Alpinism', 'Aeronautics']
+
+    x=[]
+    name=[]
+    for sport in famous_sports:
+        temp_df = athelete_df[athelete_df['Sport'] == sport]
+        x.append(temp_df[temp_df['Medal'] == 'Gold']['Age'].dropna())
+        name.append(sport)
+        # gold_ages = temp_df[temp_df['Medal'] == 'Gold']['Age'].dropna()
+        # if not gold_ages.empty:
+        #     x.append(gold_ages)
+        #     name.append(sport)
+    # x = [data for data in x if not data.empty]
+    fig = ff.create_distplot(x,name,show_hist=False,show_rug=False)
+    fig.update_layout(autosize=False,width=800,height=500)
+    st.plotly_chart(fig)
+    # if x:  # Check if x is not empty
+    #     fig = ff.create_distplot(x, name, show_hist=False, show_rug=False)
+    #     fig.show()
+
