@@ -142,7 +142,6 @@ git push origin feature-branch
 
 This project is licensed under the **MIT License**.
 
-
 ## 📬 Contact
 
 **Made with ❤️ by Manu Raj**
