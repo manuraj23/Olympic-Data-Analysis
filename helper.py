@@ -71,21 +71,46 @@ def country_event_heatmap(df,country):
     pt=new_df.pivot_table(index='Sport',columns='Year',values='Event',aggfunc='count').fillna(0)
     return pt
 
-# Some error in code
-def most_sucessful_athelete(df,country):
+def most_successful(df, sport):
     df.drop_duplicates(inplace=True)
-    table_preview=df.dropna(subset=['Medal'])['Name'].value_counts().reset_index()
+    table_preview = df.dropna(subset=['Medal'])['Name'].value_counts().reset_index()
     table_preview.columns = ['Name', 'Count']
-    table_preview.merge(df, left_on='Name', right_on='Name', how='left')[['Name', 'Count', 'region', 'Sport']].drop_duplicates('Name').head(10)
-    # return table_preview
+    table_preview = table_preview.merge(df, on='Name', how='left')[['Name', 'Count', 'region', 'Sport']].drop_duplicates('Name')
+    
+    if sport != 'Overall':
+        table_preview = table_preview[table_preview['Sport'] == sport]
+        
+    return table_preview.head(10)
 
+def most_successful_countrywise(df, country):
+    temp_df = df.dropna(subset=['Medal'])
+    temp_df = temp_df[temp_df['region'] == country]
 
-    # table_preview.dropna(subset=['Medal'])['Name'].value_counts().reset_index().merge(df,left_on='index',right_on='Name',how='left')[['index','name_x','region']].drop_duplicates('index').head(10)
-    temp_df=table_preview.dropna(subset=['Count'])
+    # Group by Name and Medal type
+    medal_count = temp_df.pivot_table(index='Name', columns='Medal', values='Event', aggfunc='count', fill_value=0)
 
-    temp_df=temp_df[temp_df['region']==country]
+    # Add total medals
+    medal_count['Total'] = medal_count.sum(axis=1)
 
-    x=temp_df['Name'].value_counts().reset_index().head(15).merge(df,left_on='Name',right_on='count',how='left')[['Name', 'Count',  'Sport']].drop_duplicates('count')
+    # Merge with Sport info
+    sport_info = temp_df[['Name', 'Sport']].drop_duplicates(subset=['Name'])
+    medal_count = medal_count.merge(sport_info, on='Name', how='left')
 
-    # x.rename(columns={'Name':'Name','count':'Medals'},inplace=True)
-    return x
+    # Rename columns for clarity
+    medal_count = medal_count.rename(columns={
+        'Gold': 'Gold',
+        'Silver': 'Silver',
+        'Bronze': 'Bronze'
+    })
+
+    # Fill missing columns if any medal type is missing in data
+    for medal in ['Gold', 'Silver', 'Bronze']:
+        if medal not in medal_count.columns:
+            medal_count[medal] = 0
+
+    # Sort by Gold, then Silver, then Bronze
+    medal_count = medal_count.sort_values(by=['Gold', 'Silver', 'Bronze'], ascending=False).reset_index()
+
+    # Take top 10
+    return medal_count[['Name', 'Gold', 'Silver', 'Bronze', 'Total', 'Sport']].head(10)
+

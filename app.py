@@ -29,7 +29,7 @@ user_menu=st.sidebar.radio(
 )
 
 
-
+#Module 1
 if user_menu=='Medal Tally':
     
     st.sidebar.header("Medal Tally")
@@ -49,6 +49,7 @@ if user_menu=='Medal Tally':
         st.title("Medal Tally of "+ selected_conutry+" in "+ str(selected_year))
     st.table(medal_tally)
 
+#Module 2
 if user_menu=='Overall Analysis':
     editions =df['Year'].unique().shape[0]-1
     cities =df['City'].unique().shape[0]
@@ -105,9 +106,20 @@ if user_menu=='Overall Analysis':
 # sns.heatmap(x.pivot_table(index='Sport',columns='Year',values='Event',aggfunc='count').fillno(0).astype('int'),annot=True)
     
     #to add most sucessfull atheletes
+    st.title("Most successful Athletes")
+
+    sport_list = df['Sport'].dropna().unique().tolist()
+    sport_list.sort()
+    sport_list.insert(0, 'Overall')
+
+    selected_sport = st.selectbox('Select a Sport', sport_list)
+
+    x = helper.most_successful(df, selected_sport)
+
+    st.table(x)
 
 
-
+#Module 3
 if user_menu=='Country_wise Performance':
 
     st.sidebar.title('Country-wise Analysis')
@@ -128,12 +140,14 @@ if user_menu=='Country_wise Performance':
     ax=sns.heatmap(pt,annot=True)
     st.pyplot(fig)
     
-    st.title("Top 10 Atheletes of "+selected_conutry)
-    top10_df=helper.most_sucessful_athelete(df,selected_conutry)
-    st.table(top10_df)
+    st.title("Top 10 Athletes of " + selected_conutry)
+    top10_df = helper.most_successful_countrywise(df, selected_conutry)
+    st.table(top10_df.set_index(pd.Index(range(1, len(top10_df)+1))))
 
 
 
+
+#Module 4
 if user_menu=='Athelete Wise Analysis':
     st.title('Distribution of age ')
     athelete_df=df
