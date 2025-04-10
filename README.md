@@ -23,22 +23,44 @@ An interactive web application built using **Streamlit** that visualizes Olympic
   Visualize the **growth of the Olympics** over time in terms of:  
   → Number of athletes  
   → Participating countries  
-  → Sports and events  
+  → Sports and events
+  ![image](https://github.com/user-attachments/assets/0f1aad0a-a672-460a-a45d-cd492644d174)
+
   Understand how global events shaped Olympic history.
+
+  ![image](https://github.com/user-attachments/assets/c9bea95b-ea8e-471c-9ebf-8c8676d77bd5)
+
+  ![image](https://github.com/user-attachments/assets/b763c663-e3cb-4956-b777-9e7ff652f738)
+
+
 
 - 🇮🇳 **Country-wise Performance**  
   Explore any country’s Olympic journey:  
-  → Medal trends across years  
-  → Most successful sports  
-  → Top-performing athletes  
+  → Medal trends across years
+    ![image](https://github.com/user-attachments/assets/763a8d05-0782-439a-b484-c21bb8aa1aa1)
+
+  → Most successful sports
+    ![image](https://github.com/user-attachments/assets/15009fd6-e334-4030-8c2c-65b0c341d631)
+ 
+  → Top-performing athletes
+    ![image](https://github.com/user-attachments/assets/7eec8cab-76fb-4938-9fd2-5dd92c83dfbe)
+
   Especially useful to analyze progress of countries like India, USA, China, etc.
 
 - 🧑‍🤝‍🧑 **Athlete-wise Analysis**  
   Discover trends across individual athletes:  
-  → Top medal winners  
-  → Gold medals by sport  
-  → Male vs female participation  
+  → Top medal winners
+  ![image](https://github.com/user-attachments/assets/dff0fb86-1bbe-40cd-80f0-e24c2ba3618e)
+
+  → Gold medals by sport
+  ![image](https://github.com/user-attachments/assets/754d513d-0e9b-4d96-becc-b95b4583b7d5)
+
+  → Male vs female participation
+  ![image](https://github.com/user-attachments/assets/ce66f1f3-0eef-4c0e-aa39-126d318866e6)
+
   → Age distributions by event/sport
+  ![image](https://github.com/user-attachments/assets/3e6b4940-2981-4905-a538-c21c0eec5195)
+
 
 - 📌 **Interactive Visualizations**  
   Built with **Plotly**, **Matplotlib**, and **Seaborn**:  
