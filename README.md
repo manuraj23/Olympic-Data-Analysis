@@ -7,11 +7,13 @@ An interactive web application built using **Streamlit** that visualizes Olympic
 ## 📊 Features
 
 - 📈 **Medal Tally**  
-  Track the number of **gold, silver, and bronze medals** won by countries.
+  ##### Track the number of **gold, silver, and bronze medals** won by countries.
   ![image](https://github.com/user-attachments/assets/7094791e-bfd3-4a18-ab30-275b928166a5)
-  Filter by **year** or **country** to view performance in specific Olympic editions.
+  
+  ##### Filter by **year** or **country** to view performance in specific Olympic editions.
   ![image](https://github.com/user-attachments/assets/4f01c52e-d480-4426-89d6-f6c39b43671b)
-  Identify which countries dominated particular years or events.
+  
+ ##### Identify which countries dominated particular years or events.
   ![image](https://github.com/user-attachments/assets/1e3f7919-5298-47a9-ba17-f5277356e581)
 
 
