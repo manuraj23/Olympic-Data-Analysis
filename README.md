@@ -107,6 +107,12 @@ git push origin feature-branch
 
 # Open a Pull Request on GitHub
 ```
+
+## 🧾 License
+
+This project is licensed under the **MIT License**.
+
+
 ## 📬 Contact
 
 **Made with ❤️ by Manu Raj**
