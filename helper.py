@@ -114,27 +114,25 @@ def most_successful_countrywise(df, country):
     # Take top 10
     return medal_count[['Name', 'Gold', 'Silver', 'Bronze', 'Total', 'Sport']].head(10)
 
-def weight_v_height(df,sport):
-    athlete_df = df.drop_duplicates(subset=['Name', 'region'])
-    athlete_df['Medal'].fillna('No Medal', inplace=True)
-    if sport != 'Overall':
-        temp_df = athlete_df[athlete_df['Sport'] == sport]
-        return temp_df
-    else:
-        return athlete_df
-    
-    # future scope
-# def weight_v_height(df, sport):
+# def weight_v_height(df,sport):
 #     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
-    
-#     # Warning fix: Don't use inplace on a chained assignment
-#     athlete_df['Medal'] = athlete_df['Medal'].fillna('No Medal')
-    
+#     athlete_df['Medal'].fillna('No Medal', inplace=True)
 #     if sport != 'Overall':
 #         temp_df = athlete_df[athlete_df['Sport'] == sport]
 #         return temp_df
 #     else:
 #         return athlete_df
+    
+    # future scope Pandas version 3.0
+def weight_v_height(df, sport):
+    athlete_df = df.drop_duplicates(subset=['Name', 'region'])
+    athlete_df['Medal'] = athlete_df['Medal'].fillna('No Medal')
+    
+    if sport != 'Overall':
+        temp_df = athlete_df[athlete_df['Sport'] == sport]
+        return temp_df
+    else:
+        return athlete_df
 
 def men_vs_women(df):
     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
