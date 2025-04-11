@@ -122,6 +122,19 @@ def weight_v_height(df,sport):
         return temp_df
     else:
         return athlete_df
+    
+    # future scope
+# def weight_v_height(df, sport):
+#     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
+    
+#     # Warning fix: Don't use inplace on a chained assignment
+#     athlete_df['Medal'] = athlete_df['Medal'].fillna('No Medal')
+    
+#     if sport != 'Overall':
+#         temp_df = athlete_df[athlete_df['Sport'] == sport]
+#         return temp_df
+#     else:
+#         return athlete_df
 
 def men_vs_women(df):
     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
