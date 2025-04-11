@@ -90,7 +90,7 @@ An interactive web application built using **Streamlit** that visualizes Olympic
 
 ```bash
 git clone https://github.com/manuraj23/Olympic-Data-Analysis.git
-cd olympics-dashboard
+cd Olympic-Data-Analysis
 ```
 
 ### 2.Install Dependencies
