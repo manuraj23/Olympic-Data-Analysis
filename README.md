@@ -2,6 +2,8 @@
 
 An interactive web application built using **Streamlit** that visualizes Olympic Games data. It allows users to explore medal tallies, country-wise performance, athlete statistics, and overall historical trends in an engaging way.
 
+🔗 **Live Demo:** [Olympic Data Analysis Dashboard](https://manuraj23-olympic-data-analysis.streamlit.app/)
+
 ---
 
 ## 📊 Features
