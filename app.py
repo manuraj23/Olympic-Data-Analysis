@@ -23,7 +23,7 @@ region_df = pd.read_csv(resource_path('noc_regions.csv'))
 df=preprocessor.preprocess(df,region_df)
 
 st.sidebar.title("Olymics Analysis")
-st.sidebar.image("olympic-logo.png", caption="Olympic Image", use_column_width=True)
+st.sidebar.image("olympic-logo.png", caption="Olympic Image", use_container_width=True)
 user_menu=st.sidebar.radio(
     'Select an Option',('Medal Tally','Overall Analysis','Country_wise Performance','Athelete Wise Analysis')
 )
