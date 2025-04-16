@@ -22,7 +22,7 @@ An interactive web application built using **Streamlit** that visualizes Olympic
 
 
 - 🌍 **Overall Analysis**  
-  Visualize the **growth of the Olympics** over time in terms of:  
+  Visualize the *growth of the Olympics* over time in terms of:  
   → Number of athletes  
   → Participating countries  
   → Sports and events
