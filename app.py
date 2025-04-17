@@ -28,6 +28,7 @@ user_menu=st.sidebar.radio(
     'Select an Option',('Medal Tally','Overall Analysis','Country_wise Performance','Athelete Wise Analysis')
 )
 
+
 #Module 1
 if user_menu=='Medal Tally':
     st.sidebar.header("Medal Tally")
